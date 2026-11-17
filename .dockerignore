@@ -1,0 +1,12 @@
+node_modules
+**/node_modules
+.next
+**/.next
+baseline
+baseline-smoke
+reconstruction
+coverage
+.git
+.env
+.env.*
+!.env.example

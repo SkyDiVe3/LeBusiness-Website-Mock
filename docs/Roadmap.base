@@ -1,0 +1,19 @@
+filters:
+  and:
+    - file.inFolder("docs")
+    - file.hasTag("doingbusiness")
+properties:
+  note.status:
+    displayName: Status
+  note.updated:
+    displayName: Updated
+views:
+  - type: table
+    name: Documentation roadmap
+    order:
+      - file.name
+      - status
+      - updated
+    sort:
+      - property: updated
+        direction: DESC

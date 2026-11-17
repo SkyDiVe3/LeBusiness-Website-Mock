@@ -1,0 +1,19 @@
+{
+  "name": "@doingbusiness/worker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@doingbusiness/config": "workspace:*",
+    "@doingbusiness/importer": "workspace:*",
+    "bullmq": "^5.51.0",
+    "ioredis": "^5.6.1",
+    "tsx": "^4.19.3",
+    "zod": "^3.24.3"
+  }
+}

@@ -1,0 +1,558 @@
+{
+  "generatedAt": "2026-11-16T15:06:00Z",
+  "targetOrigin": "https://www.doingbusiness.ro/",
+  "resolvedOrigin": "https://doingbusiness.ro/",
+  "baselineMirror": {
+    "path": "baseline/site",
+    "manifestPath": "baseline/reports/route-manifest.json",
+    "capturedAt": "2026-11-15T17:12:40.165Z",
+    "servedVia": "node scripts/serve-static.mjs baseline/site (http://127.0.0.1:4173, stopped after capture)"
+  },
+  "liveOriginProbe": {
+    "probedAt": "2026-11-16T14:58:33Z",
+    "server": "Apache",
+    "cacheControl": "no-store, no-cache, must-revalidate",
+    "sessionCookieInjected": "doingbusiness_session_ (HttpOnly, Secure, Max-Age=7200)",
+    "turnstileGateObserved": {
+      "turnstileScriptInjected": true,
+      "scriptSrc": "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit",
+      "sitekey": "0x4AAAAAACmEIQOnZ5APK7Ty",
+      "widgetContainerId": "turnstile-widget",
+      "reloadOnTokenCallback": true,
+      "emptyZeroByteRoutesWithoutTurnstileCookie": [
+        "/top-companii/",
+        "/major-companies/",
+        "/top-companii/abrazivi/",
+        "/companie/3m-romania-srl-9843539/",
+        "/companii"
+      ],
+      "safetyPolicy": "No CAPTCHA/Turnstile challenge was solved, clicked through, waited out, or bypassed. Live origin HTML and headers were probed read-only, and visual screenshots were captured from the raw captured mirror at baseline/site/ served locally via serve-static.mjs."
+    },
+    "agenticAndDiscoveryEndpoints": [
+      {
+        "path": "/llms.txt",
+        "httpStatus": 200,
+        "responseBytes": 117728,
+        "observedBehavior": "Returns full homepage HTML (<title>Acasa | DoingBusiness.ro</title>) fallback instead of text/plain llms.txt"
+      },
+      {
+        "path": "/openapi.json",
+        "httpStatus": 200,
+        "responseBytes": 117736,
+        "observedBehavior": "Returns full homepage HTML fallback instead of OpenAPI JSON specification"
+      },
+      {
+        "path": "/.well-known/api-catalog",
+        "httpStatus": 200,
+        "responseBytes": 117758,
+        "observedBehavior": "Returns full homepage HTML fallback instead of RFC 9727 api-catalog linkset JSON"
+      },
+      {
+        "path": "/sitemap.xml",
+        "httpStatus": 200,
+        "responseBytes": 117822,
+        "observedBehavior": "Returns full homepage HTML fallback instead of XML sitemap (robots.txt declares /sitemap-index.xml)"
+      },
+      {
+        "path": "/robots.txt",
+        "httpStatus": 200,
+        "responseBytes": 93,
+        "observedBehavior": "Returns text/plain declaring Disallow: /admin/ and Sitemap: https://doingbusiness.ro/sitemap-index.xml"
+      },
+      {
+        "path": "/sitemap-index.xml",
+        "httpStatus": 200,
+        "responseBytes": 945,
+        "observedBehavior": "Returns text/xml sitemapindex"
+      }
+    ]
+  },
+  "legacyDrawbacksSummary": [
+    "Cloudflare Turnstile script injection (challenges.cloudflare.com/turnstile/v0/api.js?render=explicit) and #turnstile-widget block on every rendered HTML route; triggers location.reload() on token callback and causes /top-companii/, /major-companies/, and /companie/* to return HTTP 200 with 0-byte empty bodies when accessed without a Turnstile cookie.",
+    "External Revive Adserver v4.2.1 JS tags (<ins data-revive-zoneid='2'> + //ads.doingbusiness.ro/www/delivery/asyncjs.php) and commented-out AdOcean tags injecting 728x90 header banners and sidebar ad slots on every page.",
+    "Fixed Bootstrap 3.4.1 / jQuery 3.6.1 / jQuery UI 1.13.2 multi-tier float layout (2016 '24h News' Via-Theme template): 4 stacked header/search tiers, float-based col-md-8/col-md-4 grids, hidden 1px opacity:0.1 SEO <h1> on homepage, and low-contrast translucent mobile #mobile-nav .sidenav overlay.",
+    "Blocking fullscreen GIF page loader (#pageloader with /assets/img/load.gif delayed 1200ms + fadeOut) instead of progressive non-blocking LTR skeleton transitions.",
+    "Missing CUI, CAEN, county (judet), and financial range searchable directory filters; /top-companii/ returns 0 bytes without Turnstile and the homepage Major Companies block exposes only a flat 32-industry list with generic nocompany.png placeholders.",
+    "Missing agentic & machine-readable interfaces: /llms.txt, /openapi.json, /.well-known/api-catalog, and /sitemap.xml all return the 117 KB homepage HTML fallback; no /is-agentic or structured JSON search API exists.",
+    "Commented-out contact form on /contact/ (lines 371-439 of baseline/site/contact/index.html commented out in HTML, leaving zero form fields or API validation) alongside a Google Maps iframe that fails host API-key referer checks off-origin.",
+    "Mixed Romanian/English template shells on /despre-noi/, /linkleaders/, /dezvoltarea-afacerii/, and /business-development/ using .contact-us wrappers and &nbsp; vertical spacers."
+  ],
+  "assetsDirectory": "docs/comparison-assets/live",
+  "minimumScreenshotSizeRuleBytes": 10240,
+  "routes": [
+    {
+      "comparisonKey": "home-desktop",
+      "route": "/",
+      "screenshot": "home-desktop.png",
+      "viewport": "1440x900",
+      "screenshotBytes": 473670,
+      "captureSource": "verified_raw_baseline_mirror",
+      "liveOriginStatus": 200,
+      "liveOriginBodyBytes": 117816,
+      "baselineBodyBytes": 108937,
+      "title": "Acasa | DoingBusiness.ro",
+      "domMetrics": {
+        "bodyTextLength": 9587,
+        "scrollHeight": 8029,
+        "horizontalOverflow": false,
+        "totalImgs": 77,
+        "brokenImgCount": 0,
+        "reviveAdSlots": 2,
+        "turnstileScripts": 1,
+        "turnstileWidgetPresent": true,
+        "hidden1pxSeoH1": true
+      },
+      "drawbacks": [
+        "Injects Cloudflare Turnstile script + #turnstile-widget directly in document flow",
+        "Header contains 728x90 Revive Adserver banner alongside 4 stacked top-bar/nav/clock/search tiers",
+        "Hidden 1px opacity:0.1 <h1> SEO hack; Major Companies Magazine spotlight pushed below full-bleed event parallax banner with tracked emailing redirect links",
+        "Blocking #pageloader GIF overlay before content reveal"
+      ]
+    },
+    {
+      "comparisonKey": "home-editorial-desktop",
+      "route": "/ (scrolled to STIRI & INTERVIURI)",
+      "screenshot": "home-editorial-desktop.png",
+      "viewport": "1440x900",
+      "screenshotBytes": 451084,
+      "captureSource": "verified_raw_baseline_mirror",
+      "liveOriginStatus": 200,
+      "liveOriginBodyBytes": 117816,
+      "baselineBodyBytes": 108937,
+      "title": "Acasa | DoingBusiness.ro",
+      "domMetrics": {
+        "bodyTextLength": 9594,
+        "scrollHeight": 8029,
+        "horizontalOverflow": false,
+        "totalImgs": 77,
+        "brokenImgCount": 0,
+        "reviveAdSlots": 2,
+        "turnstileScripts": 1
+      },
+      "drawbacks": [
+        "Bootstrap col-md-8 3-column news grid with truncated ... titles next to high-contrast dark #262626 sidebar",
+        "Fixed float grid layout without balanced asymmetric split or GPU-composited vertical carousels",
+        "No progressive LTR skeleton loaders"
+      ]
+    },
+    {
+      "comparisonKey": "home-mobile",
+      "route": "/",
+      "screenshot": "home-mobile.png",
+      "viewport": "390x844",
+      "screenshotBytes": 203784,
+      "captureSource": "verified_raw_baseline_mirror",
+      "liveOriginStatus": 200,
+      "liveOriginBodyBytes": 117816,
+      "baselineBodyBytes": 108937,
+      "title": "Acasa | DoingBusiness.ro",
+      "domMetrics": {
+        "bodyTextLength": 9536,
+        "scrollHeight": 22675,
+        "horizontalOverflow": false,
+        "totalImgs": 77,
+        "brokenImgCount": 0,
+        "reviveAdSlots": 2,
+        "turnstileScripts": 1,
+        "turnstileWidgetPresent": true
+      },
+      "drawbacks": [
+        "Broken Cloudflare Turnstile error box ('Unable to connect to website / Troubleshoot') renders prominently above the fold",
+        "Mobile Revive Adserver banner and full-width search bar push primary content down on 22,675px-tall scroll page",
+        "Tightly packed legacy icon-bar header without touch-friendly spacing"
+      ]
+    },
+    {
+      "comparisonKey": "mobile-modal-menu",
+      "route": "/ (mobile #sidenav-toggle open)",
+      "screenshot": "mobile-modal-menu.png",
+      "viewport": "390x844",
+      "screenshotBytes": 111848,
+      "captureSource": "verified_raw_baseline_mirror",
+      "liveOriginStatus": 200,
+      "liveOriginBodyBytes": 117816,
+      "baselineBodyBytes": 108937,
+      "title": "Acasa | DoingBusiness.ro",
+      "domMetrics": {
+        "bodyTextLength": 9536,
+        "scrollHeight": 844,
+        "horizontalOverflow": false,
+        "totalImgs": 77,
+        "brokenImgCount": 0,
+        "reviveAdSlots": 2,
+        "turnstileScripts": 1
+      },
+      "drawbacks": [
+        "Translucent jQuery sidenav drawer bleeds underlying hero typography and orange CTA through the menu backdrop",
+        "Low text contrast and non-accessible focus management compared to opaque modal accordion drawer"
+      ]
+    },
+    {
+      "comparisonKey": "editorial",
+      "route": "/editorial/",
+      "screenshot": "editorial.png",
+      "viewport": "1440x900",
+      "screenshotBytes": 387693,
+      "captureSource": "verified_raw_baseline_mirror",
+      "liveOriginStatus": 200,
+      "liveOriginBodyBytes": 84554,
+      "baselineBodyBytes": 78367,
+      "title": "Toate editorialele | DoingBusiness.ro",
+      "domMetrics": {
+        "bodyTextLength": 6437,
+        "scrollHeight": 5383,
+        "horizontalOverflow": false,
+        "totalImgs": 61,
+        "brokenImgCount": 0,
+        "reviveAdSlots": 3,
+        "turnstileScripts": 1,
+        "turnstileWidgetPresent": true
+      },
+      "drawbacks": [
+        "Injects Cloudflare Turnstile widget and 3 Revive Adserver slots (728x90 header + sidebar banners)",
+        "Generic 'Toate editorialele' title with truncated headlines and Bootstrap col-md-8/col-md-4 float layout"
+      ]
+    },
+    {
+      "comparisonKey": "articole",
+      "route": "/articole/",
+      "screenshot": "articole.png",
+      "viewport": "1440x900",
+      "screenshotBytes": 458508,
+      "captureSource": "verified_raw_baseline_mirror",
+      "liveOriginStatus": 200,
+      "liveOriginBodyBytes": 68930,
+      "baselineBodyBytes": 63748,
+      "title": "Toate articolele | DoingBusiness.ro",
+      "domMetrics": {
+        "bodyTextLength": 4732,
+        "scrollHeight": 3595,
+        "horizontalOverflow": false,
+        "totalImgs": 48,
+        "brokenImgCount": 0,
+        "reviveAdSlots": 3,
+        "turnstileScripts": 1,
+        "turnstileWidgetPresent": true
+      },
+      "drawbacks": [
+        "Cloudflare Turnstile error banner and 3 Revive Adserver slots dominate upper viewport",
+        "Static pagination without instant client filtering or LTR skeleton state"
+      ]
+    },
+    {
+      "comparisonKey": "stiri",
+      "route": "/stiri/",
+      "screenshot": "stiri.png",
+      "viewport": "1440x900",
+      "screenshotBytes": 408397,
+      "captureSource": "verified_raw_baseline_mirror",
+      "liveOriginStatus": 200,
+      "liveOriginBodyBytes": 68945,
+      "baselineBodyBytes": 64079,
+      "title": "Toate stirile | DoingBusiness.ro",
+      "domMetrics": {
+        "bodyTextLength": 4838,
+        "scrollHeight": 3595,
+        "horizontalOverflow": false,
+        "totalImgs": 48,
+        "brokenImgCount": 0,
+        "reviveAdSlots": 3,
+        "turnstileScripts": 1,
+        "turnstileWidgetPresent": true
+      },
+      "drawbacks": [
+        "Cloudflare Turnstile error banner and 3 Revive Adserver slots above/beside news list",
+        "Repeated multi-tier header + unused search bar chrome consumes ~450px vertical space"
+      ]
+    },
+    {
+      "comparisonKey": "interviuri",
+      "route": "/interviuri/",
+      "screenshot": "interviuri.png",
+      "viewport": "1440x900",
+      "screenshotBytes": 388546,
+      "captureSource": "verified_raw_baseline_mirror",
+      "liveOriginStatus": 200,
+      "liveOriginBodyBytes": 67456,
+      "baselineBodyBytes": 62282,
+      "title": "Toate interviurile | DoingBusiness.ro",
+      "domMetrics": {
+        "bodyTextLength": 4186,
+        "scrollHeight": 3595,
+        "horizontalOverflow": false,
+        "totalImgs": 48,
+        "brokenImgCount": 0,
+        "reviveAdSlots": 3,
+        "turnstileScripts": 1,
+        "turnstileWidgetPresent": true
+      },
+      "drawbacks": [
+        "All-caps truncated titles with ellipses and Turnstile + Revive ad overhead",
+        "Rigid horizontal list items without modern editorial typography hierarchy"
+      ]
+    },
+    {
+      "comparisonKey": "video-interviuri",
+      "route": "/video-interviuri/",
+      "screenshot": "video-interviuri.png",
+      "viewport": "1440x900",
+      "screenshotBytes": 504192,
+      "captureSource": "verified_raw_baseline_mirror",
+      "liveOriginStatus": 200,
+      "liveOriginBodyBytes": 69072,
+      "baselineBodyBytes": 64020,
+      "title": "Toate video-interviurile | DoingBusiness.ro",
+      "domMetrics": {
+        "bodyTextLength": 4906,
+        "scrollHeight": 3595,
+        "horizontalOverflow": false,
+        "totalImgs": 48,
+        "brokenImgCount": 0,
+        "reviveAdSlots": 3,
+        "turnstileScripts": 1,
+        "turnstileWidgetPresent": true
+      },
+      "drawbacks": [
+        "Static thumbnails mixed with Revive ads and Turnstile widget",
+        "No structured video schema or unified editorial card metadata"
+      ]
+    },
+    {
+      "comparisonKey": "business-drive",
+      "route": "/business-drive/",
+      "screenshot": "business-drive.png",
+      "viewport": "1440x900",
+      "screenshotBytes": 412126,
+      "captureSource": "verified_raw_baseline_mirror",
+      "liveOriginStatus": 200,
+      "liveOriginBodyBytes": 67998,
+      "baselineBodyBytes": 62662,
+      "title": "Piata Auto | DoingBusiness.ro",
+      "domMetrics": {
+        "bodyTextLength": 4517,
+        "scrollHeight": 3595,
+        "horizontalOverflow": false,
+        "totalImgs": 48,
+        "brokenImgCount": 0,
+        "reviveAdSlots": 3,
+        "turnstileScripts": 1,
+        "turnstileWidgetPresent": true
+      },
+      "drawbacks": [
+        "Cloudflare Turnstile widget and 3 Revive Adserver ad containers",
+        "Uncropped varied image ratios in rigid 24h News list cards"
+      ]
+    },
+    {
+      "comparisonKey": "evenimente",
+      "route": "/evenimente/",
+      "screenshot": "evenimente.png",
+      "viewport": "1440x900",
+      "screenshotBytes": 382045,
+      "captureSource": "verified_raw_baseline_mirror",
+      "liveOriginStatus": 200,
+      "liveOriginBodyBytes": 76442,
+      "baselineBodyBytes": 71842,
+      "title": "Toate evenimentele | DoingBusiness.ro",
+      "domMetrics": {
+        "bodyTextLength": 4824,
+        "scrollHeight": 4222,
+        "horizontalOverflow": false,
+        "totalImgs": 56,
+        "brokenImgCount": 0,
+        "reviveAdSlots": 3,
+        "turnstileScripts": 1,
+        "turnstileWidgetPresent": true
+      },
+      "drawbacks": [
+        "Global navbar switches abruptly from #c5020e red to bright #ff9800 orange with low white-on-orange contrast",
+        "Turnstile widget and Revive ad banners clutter event listings"
+      ]
+    },
+    {
+      "comparisonKey": "webinarii",
+      "route": "/webinarii/",
+      "screenshot": "webinarii.png",
+      "viewport": "1440x900",
+      "screenshotBytes": 484137,
+      "captureSource": "verified_raw_baseline_mirror",
+      "liveOriginStatus": 200,
+      "liveOriginBodyBytes": 73225,
+      "baselineBodyBytes": 67823,
+      "title": "Toate webinariile | DoingBusiness.ro",
+      "domMetrics": {
+        "bodyTextLength": 5110,
+        "scrollHeight": 3998,
+        "horizontalOverflow": false,
+        "totalImgs": 53,
+        "brokenImgCount": 0,
+        "reviveAdSlots": 3,
+        "turnstileScripts": 1,
+        "turnstileWidgetPresent": true
+      },
+      "drawbacks": [
+        "Orange #ff9800 navbar theme shift with low contrast white links",
+        "Revive Adserver banners and Turnstile script injection"
+      ]
+    },
+    {
+      "comparisonKey": "top-companii",
+      "route": "/top-companii/",
+      "screenshot": "home-mcr-desktop.png",
+      "screenshotSourceRoute": "/ (scrolled to #main-section Major Companies preview)",
+      "viewport": "1440x900",
+      "screenshotBytes": 138550,
+      "captureSource": "turnstile_gated_empty_200_fallback_to_home_mcr",
+      "liveOriginStatus": 200,
+      "liveOriginBodyBytes": 0,
+      "baselineBodyBytes": 0,
+      "title": "Acasa | DoingBusiness.ro (Major Companies section; /top-companii/ returned 0 bytes)",
+      "domMetrics": {
+        "bodyTextLength": 9594,
+        "scrollHeight": 8029,
+        "horizontalOverflow": false,
+        "totalImgs": 77,
+        "brokenImgCount": 0,
+        "reviveAdSlots": 2,
+        "turnstileScripts": 1
+      },
+      "drawbacks": [
+        "Dedicated /top-companii/, /major-companies/, /top-companii/abrazivi/, /companie/*, and /companii endpoints return HTTP 200 with 0-byte empty body without a Turnstile verification cookie (observed both live on 2026-11-16 and in baseline/site/top-companii/index.html SHA-256 e3b0c44...)",
+        "Un-gated homepage Major Companies block (home-mcr-desktop.png) offers only a flat 32-industry list with zero CUI, CAEN, county (judet), or financial metric search filters",
+        "Relies on generic nocompany.png building icons and truncated text"
+      ]
+    },
+    {
+      "comparisonKey": "despre-noi",
+      "route": "/despre-noi/",
+      "screenshot": "despre-noi.png",
+      "viewport": "1440x900",
+      "screenshotBytes": 258678,
+      "captureSource": "verified_raw_baseline_mirror",
+      "liveOriginStatus": 200,
+      "liveOriginBodyBytes": 28147,
+      "baselineBodyBytes": 26148,
+      "title": "Despre noi | DoingBusiness.ro",
+      "domMetrics": {
+        "bodyTextLength": 2562,
+        "scrollHeight": 1920,
+        "horizontalOverflow": false,
+        "totalImgs": 12,
+        "brokenImgCount": 0,
+        "reviveAdSlots": 2,
+        "turnstileScripts": 1,
+        "turnstileWidgetPresent": true
+      },
+      "drawbacks": [
+        "Mixes Romanian navigation/heading ('Despre noi') with English body copy inside .contact-us form-group wrappers",
+        "Turnstile widget and Revive Adserver header banner present on institutional about page"
+      ]
+    },
+    {
+      "comparisonKey": "linkleaders",
+      "route": "/linkleaders/",
+      "screenshot": "linkleaders.png",
+      "viewport": "1440x900",
+      "screenshotBytes": 358675,
+      "captureSource": "verified_raw_baseline_mirror",
+      "liveOriginStatus": 200,
+      "liveOriginBodyBytes": 35487,
+      "baselineBodyBytes": 33297,
+      "title": "LinkLeaders | DoingBusiness.ro",
+      "domMetrics": {
+        "bodyTextLength": 6523,
+        "scrollHeight": 5383,
+        "horizontalOverflow": false,
+        "totalImgs": 15,
+        "brokenImgCount": 0,
+        "reviveAdSlots": 2,
+        "turnstileScripts": 1,
+        "turnstileWidgetPresent": true
+      },
+      "drawbacks": [
+        "Long unformatted wall of Bootstrap .col-md-12/.form-group text with &nbsp; spacers",
+        "Turnstile error banner and Revive Adserver banner above content"
+      ]
+    },
+    {
+      "comparisonKey": "dezvoltarea-afacerii",
+      "route": "/dezvoltarea-afacerii/",
+      "screenshot": "dezvoltarea-afacerii.png",
+      "viewport": "1440x900",
+      "screenshotBytes": 366816,
+      "captureSource": "verified_raw_baseline_mirror",
+      "liveOriginStatus": 200,
+      "liveOriginBodyBytes": 41475,
+      "baselineBodyBytes": 39377,
+      "title": "Business Development | DoingBusiness.ro",
+      "domMetrics": {
+        "bodyTextLength": 9557,
+        "scrollHeight": 7728,
+        "horizontalOverflow": false,
+        "totalImgs": 15,
+        "brokenImgCount": 0,
+        "reviveAdSlots": 2,
+        "turnstileScripts": 1,
+        "turnstileWidgetPresent": true
+      },
+      "drawbacks": [
+        "Romanian slug /dezvoltarea-afacerii/ renders English copy ('Business development') inside Romanian navigation shell",
+        "Turnstile widget, Revive ad banner, and 7,728px unsegmented text scroll"
+      ]
+    },
+    {
+      "comparisonKey": "business-development",
+      "route": "/business-development/",
+      "screenshot": "business-development.png",
+      "viewport": "1440x900",
+      "screenshotBytes": 368134,
+      "captureSource": "verified_raw_baseline_mirror",
+      "liveOriginStatus": 200,
+      "liveOriginBodyBytes": 41397,
+      "baselineBodyBytes": 39303,
+      "title": "Business Development | DoingBusiness.ro",
+      "domMetrics": {
+        "bodyTextLength": 9529,
+        "scrollHeight": 7728,
+        "horizontalOverflow": false,
+        "totalImgs": 15,
+        "brokenImgCount": 0,
+        "reviveAdSlots": 2,
+        "turnstileScripts": 1,
+        "turnstileWidgetPresent": true
+      },
+      "drawbacks": [
+        "Duplicate 7,728px page structure with Turnstile widget and Revive Adserver tags",
+        "Dense list markup inside .contact-us container without visual hierarchy or CTA cards"
+      ]
+    },
+    {
+      "comparisonKey": "contact",
+      "route": "/contact/",
+      "screenshot": "contact.png",
+      "viewport": "1440x900",
+      "screenshotBytes": 137598,
+      "captureSource": "verified_raw_baseline_mirror",
+      "liveOriginStatus": 200,
+      "liveOriginBodyBytes": 32427,
+      "baselineBodyBytes": 30520,
+      "title": "Contact | DoingBusiness.ro",
+      "domMetrics": {
+        "bodyTextLength": 799,
+        "scrollHeight": 1480,
+        "horizontalOverflow": false,
+        "totalImgs": 10,
+        "brokenImgCount": 0,
+        "reviveAdSlots": 2,
+        "turnstileScripts": 1,
+        "turnstileWidgetPresent": true,
+        "contactFormActive": false
+      },
+      "drawbacks": [
+        "Entire <form id='contact-form'> (lines 371-439 of baseline/site/contact/index.html) is commented out in HTML, leaving zero interactive inquiry form or validation",
+        "Embedded Google Maps iframe fails off-origin with 'Google Maps Platform rejected your request' API key referer error",
+        "Right half of the 2-column grid sits completely empty while Turnstile + Revive ad banners render above"
+      ]
+    }
+  ]
+}

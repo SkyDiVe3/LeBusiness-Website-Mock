@@ -1,0 +1,596 @@
+{
+  "assets": [
+    {
+      "contentType": "text/css",
+      "id": "0973c44b09d01c28",
+      "kind": "stylesheet",
+      "name": "css",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/0973c44b09d01c28",
+      "url": "https://fonts.googleapis.com/css?family=Roboto+Condensed%7CRoboto+Slab:300,400,700%7CRoboto:300,400,500,700"
+    },
+    {
+      "contentType": "text/css",
+      "id": "a0b88918e916c128",
+      "kind": "stylesheet",
+      "name": "bootstrap.min.css",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/a0b88918e916c128.css",
+      "url": "https://doingbusiness.ro/lib/plugins/bootstrap/bootstrap-3.4.1/css/bootstrap.min.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "665afa82d3f45e8d",
+      "kind": "stylesheet",
+      "name": "main.css",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/665afa82d3f45e8d.css",
+      "url": "https://doingbusiness.ro/assets/css/main.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "7580c7c365cfb352",
+      "kind": "stylesheet",
+      "name": "style.css",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/7580c7c365cfb352.css",
+      "url": "https://doingbusiness.ro/assets/css/style.css?v13"
+    },
+    {
+      "contentType": "text/css",
+      "id": "c671865eaaf0ca73",
+      "kind": "stylesheet",
+      "name": "colors.css",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/c671865eaaf0ca73.css",
+      "url": "https://doingbusiness.ro/assets/css/colors.css"
+    },
+    {
+      "contentType": "text/css",
+      "id": "d63a183001ef3f0a",
+      "kind": "stylesheet",
+      "name": "responsive.css",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/d63a183001ef3f0a.css",
+      "url": "https://doingbusiness.ro/assets/css/responsive.css?v5"
+    },
+    {
+      "contentType": "text/css",
+      "id": "fa7bc9d285df0a8e",
+      "kind": "stylesheet",
+      "name": "jquery-ui.min.css",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/fa7bc9d285df0a8e.css",
+      "url": "https://doingbusiness.ro/lib/plugins/jQueryUI/jquery-ui-1.13.2/jquery-ui.min.css"
+    },
+    {
+      "contentType": "image/gif",
+      "id": "3ecee75ea4d00783",
+      "kind": "image",
+      "name": "load.gif",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/3ecee75ea4d00783.gif",
+      "url": "https://doingbusiness.ro/assets/img/load.gif"
+    },
+    {
+      "contentType": "image/png",
+      "id": "23665af03af69500",
+      "kind": "image",
+      "name": "ro.png",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/23665af03af69500.png",
+      "url": "https://doingbusiness.ro/assets/img/ro.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "2f91fe4edf6081c9",
+      "kind": "image",
+      "name": "en.png",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/2f91fe4edf6081c9.png",
+      "url": "https://doingbusiness.ro/assets/img/en.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "41cfb0fb47df3bca",
+      "kind": "image",
+      "name": "doingbusiness.png",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/41cfb0fb47df3bca.png",
+      "url": "https://doingbusiness.ro/media/doingbusiness.png"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "f8e623a3bada6ce4",
+      "kind": "image",
+      "name": "MCR-2025-Digital.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/f8e623a3bada6ce4.jpg",
+      "url": "https://doingbusiness.ro/media/downloads/2025/MCR-2025-Digital.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "5add96c96a48bf75",
+      "kind": "image",
+      "name": "6af5cd072f594_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/5add96c96a48bf75.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6af5cd072f594_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "a0b3bc9bc128b4d4",
+      "kind": "image",
+      "name": "6af5bbc5ba26d_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/a0b3bc9bc128b4d4.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6af5bbc5ba26d_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "838864c7e0fde5ac",
+      "kind": "image",
+      "name": "6af4ea8f038cb_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/838864c7e0fde5ac.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6af4ea8f038cb_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "969ce0f2b9acb74c",
+      "kind": "image",
+      "name": "6af3689fe85ec_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/969ce0f2b9acb74c.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6af3689fe85ec_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "1ca3fd9f1d711145",
+      "kind": "image",
+      "name": "6ae9d1cd5618f_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/1ca3fd9f1d711145.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6ae9d1cd5618f_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "ab4db4cb805f3097",
+      "kind": "image",
+      "name": "6ae86a044e8ad_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/ab4db4cb805f3097.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6ae86a044e8ad_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "4b38cfe85af08bb0",
+      "kind": "image",
+      "name": "6949bd498aa9e_poza_cristian_sporis.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/4b38cfe85af08bb0.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6949bd498aa9e_poza_cristian_sporis.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "9f407e2cf82d989c",
+      "kind": "image",
+      "name": "694a79937ea6d_poza_karan_khurana.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/9f407e2cf82d989c.jpg",
+      "url": "https://doingbusiness.ro/media/covers/694a79937ea6d_poza_karan_khurana.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "9da81ee72ef064aa",
+      "kind": "image",
+      "name": "694a8c48f2140_poza_marius_melesteu.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/9da81ee72ef064aa.jpg",
+      "url": "https://doingbusiness.ro/media/covers/694a8c48f2140_poza_marius_melesteu.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "5fdb887b81c1f2aa",
+      "kind": "image",
+      "name": "694a9f2e7c1a8_poza_razvan_copoiu.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/5fdb887b81c1f2aa.jpg",
+      "url": "https://doingbusiness.ro/media/covers/694a9f2e7c1a8_poza_razvan_copoiu.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "b159099696b4366c",
+      "kind": "image",
+      "name": "6968e842a1ca6_poza_alexandru_aldescu.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/b159099696b4366c.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6968e842a1ca6_poza_alexandru_aldescu.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "cab8db46d3cb00f5",
+      "kind": "image",
+      "name": "6968deed214b2_poza_dorel_gutu.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/cab8db46d3cb00f5.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6968deed214b2_poza_dorel_gutu.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "a7439cf901d946a9",
+      "kind": "image",
+      "name": "695412c4c299a_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/a7439cf901d946a9.jpg",
+      "url": "https://doingbusiness.ro/media/covers/695412c4c299a_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "082b892a56cd3510",
+      "kind": "image",
+      "name": "69540c434e540_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/082b892a56cd3510.jpg",
+      "url": "https://doingbusiness.ro/media/covers/69540c434e540_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "8b03ad319028a0ed",
+      "kind": "image",
+      "name": "6954018829651_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/8b03ad319028a0ed.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6954018829651_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "ac72402d6cc42137",
+      "kind": "image",
+      "name": "6953fa1edadf1_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/ac72402d6cc42137.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6953fa1edadf1_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "1c184bc48ef5c560",
+      "kind": "image",
+      "name": "694ab255979c7_poza_stefano_albarosa.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/1c184bc48ef5c560.jpg",
+      "url": "https://doingbusiness.ro/media/covers/694ab255979c7_poza_stefano_albarosa.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "8cb71d79097aed1a",
+      "kind": "image",
+      "name": "694a82aeaefdc_poza_marius_ionita.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/8cb71d79097aed1a.jpg",
+      "url": "https://doingbusiness.ro/media/covers/694a82aeaefdc_poza_marius_ionita.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "040e1ff22203d83d",
+      "kind": "image",
+      "name": "6949b357ba029_poza_kai_uwe_trillenberg.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/040e1ff22203d83d.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6949b357ba029_poza_kai_uwe_trillenberg.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "71eb2e2b5eaa1f4f",
+      "kind": "image",
+      "name": "6949a68c4555c_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/71eb2e2b5eaa1f4f.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6949a68c4555c_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "8f549f0b78fab07b",
+      "kind": "image",
+      "name": "6af5aa64e639b_magda.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/8f549f0b78fab07b.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6af5aa64e639b_magda.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "2e6f7d0f7628660c",
+      "kind": "image",
+      "name": "6af4520599a4a_elena.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/2e6f7d0f7628660c.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6af4520599a4a_elena.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "005b08e3566051db",
+      "kind": "image",
+      "name": "6ae9e4962c0bf_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/005b08e3566051db.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6ae9e4962c0bf_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "a67a95f6f75ffd59",
+      "kind": "image",
+      "name": "6ae36cc5bc50f_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/a67a95f6f75ffd59.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6ae36cc5bc50f_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "4d338a9a491f4d49",
+      "kind": "image",
+      "name": "6ae08a602b515_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/4d338a9a491f4d49.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6ae08a602b515_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "e964fae8263fa4fa",
+      "kind": "image",
+      "name": "6adf305a7b8f1_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/e964fae8263fa4fa.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6adf305a7b8f1_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "102e4b4526d6ad1e",
+      "kind": "image",
+      "name": "6adf2b840c909_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/102e4b4526d6ad1e.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6adf2b840c909_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "ff6e8bacef164fc7",
+      "kind": "image",
+      "name": "6ad76556f367f_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/ff6e8bacef164fc7.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6ad76556f367f_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "62bc2f5bf3843851",
+      "kind": "image",
+      "name": "6ad73e5eaf7d6_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/62bc2f5bf3843851.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6ad73e5eaf7d6_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "a5cf183af5c131dc",
+      "kind": "image",
+      "name": "6ad61d2b1b086_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/a5cf183af5c131dc.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6ad61d2b1b086_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "575e16937bf59d8b",
+      "kind": "image",
+      "name": "6ad103590295d_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/575e16937bf59d8b.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6ad103590295d_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "5c1a889ec9c3f94d",
+      "kind": "image",
+      "name": "6ad0efa0534b5_magda2.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/5c1a889ec9c3f94d.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6ad0efa0534b5_magda2.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "d4996ef4574f5e3c",
+      "kind": "image",
+      "name": "6acf93106e996_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/d4996ef4574f5e3c.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6acf93106e996_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "891b58a6cbce3d8c",
+      "kind": "image",
+      "name": "6acf81d40d03e_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/891b58a6cbce3d8c.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6acf81d40d03e_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "d94c52b165ebd066",
+      "kind": "image",
+      "name": "6ace2dabcf72a_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/d94c52b165ebd066.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6ace2dabcf72a_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "4c4777cce32c7537",
+      "kind": "image",
+      "name": "6acceb8a9267c_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/4c4777cce32c7537.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6acceb8a9267c_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "ecd36e001b846898",
+      "kind": "image",
+      "name": "6accc3857cdf5_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/ecd36e001b846898.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6accc3857cdf5_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "4b336758ac6e1d8d",
+      "kind": "image",
+      "name": "6ac4cd624b75b_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/4b336758ac6e1d8d.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6ac4cd624b75b_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "085d530cf5648440",
+      "kind": "image",
+      "name": "6abe98644bc6e_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/085d530cf5648440.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6abe98644bc6e_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "49138eb15f422960",
+      "kind": "image",
+      "name": "6abcb49de2e0f_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/49138eb15f422960.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6abcb49de2e0f_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "28fa70d780080abc",
+      "kind": "image",
+      "name": "6af5dda744519_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/28fa70d780080abc.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6af5dda744519_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "2c8e4ef03dbe1668",
+      "kind": "image",
+      "name": "6ae8f1d9af1cb_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/2c8e4ef03dbe1668.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6ae8f1d9af1cb_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "6a0eebe40ea1d062",
+      "kind": "image",
+      "name": "6ae216c51f4b3_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/6a0eebe40ea1d062.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6ae216c51f4b3_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "91b852373cba45f2",
+      "kind": "image",
+      "name": "6aba38ac23a0c_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/91b852373cba45f2.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6aba38ac23a0c_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "e87e4cfda9d9b116",
+      "kind": "image",
+      "name": "6aa7bd8a1d00b_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/e87e4cfda9d9b116.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6aa7bd8a1d00b_cover.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "c7afacfd4e12d825",
+      "kind": "image",
+      "name": "6aa2c3517c93a_cover.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/c7afacfd4e12d825.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6aa2c3517c93a_cover.jpg"
+    },
+    {
+      "contentType": "image/png",
+      "id": "70a0d284afca05be",
+      "kind": "image",
+      "name": "nocompany.png",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/70a0d284afca05be.png",
+      "url": "https://doingbusiness.ro/media/nocompany.png"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "6c362877645b9920",
+      "kind": "image",
+      "name": "5c37515e703e9_logo_ibcargo_300.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/6c362877645b9920.jpg",
+      "url": "https://doingbusiness.ro/media/logos/5c37515e703e9_logo_ibcargo_300.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "ac8c1e793ba0e6ae",
+      "kind": "image",
+      "name": "5bd32e2f2026a_klg_europe.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/ac8c1e793ba0e6ae.jpg",
+      "url": "https://doingbusiness.ro/media/logos/5bd32e2f2026a_klg_europe.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "00a45a6ced20c779",
+      "kind": "image",
+      "name": "company_logo_951.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/00a45a6ced20c779.jpg",
+      "url": "https://doingbusiness.ro/media/logos/company_logo_951.jpg"
+    },
+    {
+      "contentType": "font/woff",
+      "id": "77fac2703c1ff0ec",
+      "kind": "font",
+      "name": "fontawesome-webfont.woff",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/77fac2703c1ff0ec.woff",
+      "url": "https://doingbusiness.ro/assets/fonts/fontawesome-webfont.woff?v=4.0.3"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "7b81b5d1d0e92d1f",
+      "kind": "image",
+      "name": "6a6b46005091b_ceo_conference_2026.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/7b81b5d1d0e92d1f.jpg",
+      "url": "https://doingbusiness.ro/media/covers/6a6b46005091b_ceo_conference_2026.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "ba1d69e41d486c9a",
+      "kind": "image",
+      "name": "download-parallax-bgnd.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/ba1d69e41d486c9a.jpg",
+      "url": "https://doingbusiness.ro/media/banners/download-parallax-bgnd.jpg"
+    },
+    {
+      "contentType": "image/png",
+      "id": "f40fc01f852b59dc",
+      "kind": "image",
+      "name": "prev.png",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/f40fc01f852b59dc.png",
+      "url": "https://doingbusiness.ro/assets/img/prev.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "c5291195467af445",
+      "kind": "image",
+      "name": "next.png",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/c5291195467af445.png",
+      "url": "https://doingbusiness.ro/assets/img/next.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "7f26249b5d904d43",
+      "kind": "image",
+      "name": "close.png",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/7f26249b5d904d43.png",
+      "url": "https://doingbusiness.ro/assets/img/close.png"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "95131110f806527c",
+      "kind": "image",
+      "name": "fdbfd45526b32c6cbb9bd44552169379.jpg",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/95131110f806527c.jpg",
+      "url": "https://ads.doingbusiness.ro/www/images/fdbfd45526b32c6cbb9bd44552169379.jpg"
+    },
+    {
+      "contentType": "image/gif",
+      "id": "92450c1b2734d71f",
+      "kind": "image",
+      "name": "lg.php",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/92450c1b2734d71f.php",
+      "url": "https://ads.doingbusiness.ro/www/delivery/lg.php?bannerid=86&campaignid=40&zoneid=2&loc=https%3A%2F%2Fdoingbusiness.ro%2F&referer=https%3A%2F%2Fdoingbusiness.ro%2F&cb=77d6deb7b1"
+    },
+    {
+      "contentType": "image/gif",
+      "id": "63ab4d75998bf941",
+      "kind": "image",
+      "name": "lg.php",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/63ab4d75998bf941.php",
+      "url": "https://ads.doingbusiness.ro/www/delivery/lg.php?bannerid=86&campaignid=40&zoneid=2&loc=https%3A%2F%2Fdoingbusiness.ro%2F&referer=https%3A%2F%2Fdoingbusiness.ro%2F&cb=7302a8f323"
+    },
+    {
+      "contentType": "image/x-icon",
+      "id": "0fc44915ee7df387",
+      "kind": "image",
+      "name": "favicon.ico",
+      "path": "C:\\Users\\MykeHang\\AppData\\Local\\Packages\\openai.codex_2p2nqsd0c76g0\\AC\\#!sandbox.{01228de7-edce-4192-ba46-1f2a5bcc6bb0}\\Temp/browser-use/assets/6185dd9f-8877-4c85-89ab-761bed554e67/0fc44915ee7df387.ico",
+      "url": "https://doingbusiness.ro/favicon.ico"
+    }
+  ],
+  "failures": [
+    {
+      "contentType": null,
+      "id": "890de452eac592c6",
+      "name": "KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+      "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch\n    at CSe (<anonymous>:1:42)\n    at <anonymous>:1:355",
+      "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2"
+    },
+    {
+      "contentType": null,
+      "id": "eb4a903836593fb9",
+      "name": "BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2",
+      "reason": "Loaded resource fetch failed: Asset bundling failed; page fetch failed: Browser Use encountered an error interacting with this webpage: TypeError: Failed to fetch\n    at CSe (<anonymous>:1:42)\n    at <anonymous>:1:355",
+      "url": "https://fonts.gstatic.com/s/robotoslab/v36/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2"
+    }
+  ]
+}

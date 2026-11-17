@@ -1,0 +1,1165 @@
+{
+  "source": "https://doingbusiness.ro/",
+  "startedAt": "2026-11-15T14:06:43.261Z",
+  "finishedAt": "2026-11-15T14:06:52.676Z",
+  "captureMode": "limited-5",
+  "sitemap": {
+    "indexUrl": "https://doingbusiness.ro/sitemap-index.xml",
+    "childMaps": [
+      "https://doingbusiness.ro/sitemap-pages.xml",
+      "https://doingbusiness.ro/sitemap-rbd.xml",
+      "https://doingbusiness.ro/sitemap-events.xml",
+      "https://doingbusiness.ro/sitemap-mcr.xml",
+      "https://doingbusiness.ro/sitemap-videos.xml"
+    ],
+    "declaredRouteCount": 19151
+  },
+  "routes": [
+    {
+      "sourceUrl": "https://doingbusiness.ro/",
+      "finalUrl": "https://doingbusiness.ro/",
+      "localPath": "/index.html",
+      "status": 200,
+      "contentType": "text/html",
+      "checksum": "cfe2c5face0ae8ec2e966ce8cb9864aa390eaad83a8a2f7b7150fd635ed7a448",
+      "capturedAt": "2026-11-15T14:06:44.803Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/en",
+      "finalUrl": "https://doingbusiness.ro/en",
+      "localPath": "/en/index.html",
+      "status": 200,
+      "contentType": "text/html",
+      "checksum": "7198243429d8284b01f848a68c766ac9512b2901dff85bb26fb034777685793e",
+      "capturedAt": "2026-11-15T14:06:44.804Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/publishing",
+      "finalUrl": "https://doingbusiness.ro/publishing",
+      "localPath": "/publishing/index.html",
+      "status": 200,
+      "contentType": "text/html",
+      "checksum": "a9b0b62b61b7760329f510999fdea0363a55af6b05ca04b8f865bb473fa9c3ac",
+      "capturedAt": "2026-11-15T14:06:45.382Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/editorial",
+      "finalUrl": "https://doingbusiness.ro/editorial",
+      "localPath": "/editorial/index.html",
+      "status": 200,
+      "contentType": "text/html",
+      "checksum": "b612a98940ad947eb1f8856f3f5b6cff97bd2dbdafbedd89fef9814e2c948a42",
+      "capturedAt": "2026-11-15T14:06:45.389Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/interviews",
+      "finalUrl": "https://doingbusiness.ro/interviews",
+      "localPath": "/interviews/index.html",
+      "status": 200,
+      "contentType": "text/html",
+      "checksum": "da8caa46433e8752456807494fb1b8f1423fb913a0505bdd948bcccf2d1389f1",
+      "capturedAt": "2026-11-15T14:06:45.661Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/interviuri",
+      "finalUrl": "https://doingbusiness.ro/interviuri",
+      "localPath": "/interviuri/index.html",
+      "status": 200,
+      "contentType": "text/html",
+      "checksum": "a8b29ee707f1412bb644adc68ddbf713f035fd7268d24da75dab809df06b9252",
+      "capturedAt": "2026-11-15T14:06:45.661Z"
+    }
+  ],
+  "assets": [
+    {
+      "sourceUrl": "https://doingbusiness.ro/favicon.ico",
+      "localPath": "/favicon.ico",
+      "status": 200,
+      "contentType": "image/x-icon",
+      "bytes": 1150,
+      "checksum": "0297e20abbf001421b701077cc5a5ff5cf2750f471688b65d2d3f5ccf69f72c7",
+      "capturedAt": "2026-11-15T14:06:45.676Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/lib/plugins/bootstrap/bootstrap-3.4.1/css/bootstrap.min.css",
+      "localPath": "/lib/plugins/bootstrap/bootstrap-3.4.1/css/bootstrap.min.css",
+      "status": 200,
+      "contentType": "text/css",
+      "bytes": 121638,
+      "checksum": "5eb3e78091ebeac1f56f73cab167469de6902304402d7761bbf80c95704810dc",
+      "capturedAt": "2026-11-15T14:06:45.688Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/css/main.css",
+      "localPath": "/assets/css/main.css",
+      "status": 200,
+      "contentType": "text/css",
+      "bytes": 108660,
+      "checksum": "3867d02a3f6abd813ff4e10bcab7af781853e9a4c9071afc0f27ba51ac06111b",
+      "capturedAt": "2026-11-15T14:06:45.805Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/css/style.css?v13",
+      "localPath": "/assets/css/style--50046596a3be.css",
+      "status": 200,
+      "contentType": "text/css",
+      "bytes": 127808,
+      "checksum": "52ea7c8aea7609539fd966729ea735f700bdd5f404ea5bc0454399341ca1ef6e",
+      "capturedAt": "2026-11-15T14:06:45.805Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/css/responsive.css?v5",
+      "localPath": "/assets/css/responsive--7650ad77d6e0.css",
+      "status": 200,
+      "contentType": "text/css",
+      "bytes": 21349,
+      "checksum": "f8b08c31591d32f076e63e708f72ad4c5f54105e5e7b879f3c28ffe450e481be",
+      "capturedAt": "2026-11-15T14:06:45.905Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/css/colors.css",
+      "localPath": "/assets/css/colors.css",
+      "status": 200,
+      "contentType": "text/css",
+      "bytes": 34037,
+      "checksum": "6002a68658d444fc8a631a9d6b43c12c85c471c3589cc26ae729db532d6f04e2",
+      "capturedAt": "2026-11-15T14:06:45.906Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/lib/plugins/jQueryUI/jquery-ui-1.13.2/jquery-ui.min.css",
+      "localPath": "/lib/plugins/jQueryUI/jquery-ui-1.13.2/jquery-ui.min.css",
+      "status": 200,
+      "contentType": "text/css",
+      "bytes": 32403,
+      "checksum": "a56c68c553c2de1290e702e4de6455f0e97eb78bc12c150404eaf04b5ecdddd5",
+      "capturedAt": "2026-11-15T14:06:46.015Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/lib/plugins/jQuery/jquery-3.6.1.min.js",
+      "localPath": "/lib/plugins/jQuery/jquery-3.6.1.min.js",
+      "status": 200,
+      "contentType": "text/javascript",
+      "bytes": 92088,
+      "checksum": "c7fccbea5994153e548952e9dc507983cd158a344fb0d2dd79e34efe21cee0bc",
+      "capturedAt": "2026-11-15T14:06:46.022Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/lib/plugins/bootstrap/bootstrap-3.4.1/js/bootstrap.min.js",
+      "localPath": "/lib/plugins/bootstrap/bootstrap-3.4.1/js/bootstrap.min.js",
+      "status": 200,
+      "contentType": "text/javascript",
+      "bytes": 39680,
+      "checksum": "9ee2fcff6709e4d0d24b09ca0fc56aade12b4961ed9c43fd13b03248bfb57afe",
+      "capturedAt": "2026-11-15T14:06:46.126Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/lib/plugins/jQueryUI/jquery-ui-1.13.2/jquery-ui.min.js",
+      "localPath": "/lib/plugins/jQueryUI/jquery-ui-1.13.2/jquery-ui.min.js",
+      "status": 200,
+      "contentType": "text/javascript",
+      "bytes": 255084,
+      "checksum": "9528ca634fecad433d044ddd3e6f9ce1f068d5d932dafdbb19d8e6daea1968bd",
+      "capturedAt": "2026-11-15T14:06:46.145Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/img/ro.png",
+      "localPath": "/assets/img/ro.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 900,
+      "checksum": "de48bd23fe7de3f8585e1b11684552ed472172056d83b5b80b1dca715ede2f28",
+      "capturedAt": "2026-11-15T14:06:46.246Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/img/load.gif",
+      "localPath": "/assets/img/load.gif",
+      "status": 200,
+      "contentType": "image/gif",
+      "bytes": 4404,
+      "checksum": "3d9c5a006a6e9a7e589a604b7d324a17ba4ae51207db3919e5acd4fbd7e76d2b",
+      "capturedAt": "2026-11-15T14:06:46.246Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/img/en.png",
+      "localPath": "/assets/img/en.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 2488,
+      "checksum": "f8d4dc8a2de390baede6c2ed7dcf8b105301cd30d4bb49eb5d8fe7b58cda36fc",
+      "capturedAt": "2026-11-15T14:06:46.352Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/doingbusiness.png",
+      "localPath": "/media/doingbusiness.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 48198,
+      "checksum": "40bc07f375a6de57476d5cb5fec73402d25654b15f420067d09d6c74b9bf58a2",
+      "capturedAt": "2026-11-15T14:06:46.354Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6af5cd072f594_cover.jpg",
+      "localPath": "/media/covers/6af5cd072f594_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 36152,
+      "checksum": "4ebe5370a69c65ad9193b2f514a71799c7d8d7f41c41d098da872d604ac524fc",
+      "capturedAt": "2026-11-15T14:06:46.461Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/downloads/2025/MCR-2025-Digital.jpg",
+      "localPath": "/media/downloads/2025/MCR-2025-Digital.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 164417,
+      "checksum": "aaa97542efbe86ee8195fa2f7ddf107ca8d9d1374f683a6cf9a55fcb03525221",
+      "capturedAt": "2026-11-15T14:06:46.467Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6af5bbc5ba26d_cover.jpg",
+      "localPath": "/media/covers/6af5bbc5ba26d_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 65749,
+      "checksum": "3462381618e1f56bfe380ad1c12787916b77c7e7a38f941e02658cc03219fc56",
+      "capturedAt": "2026-11-15T14:06:46.570Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6af4ea8f038cb_cover.jpg",
+      "localPath": "/media/covers/6af4ea8f038cb_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 122860,
+      "checksum": "98ee6a5537051aaf7702ab780ba0f099e82db8d5ac03e82f8052931cfe3240d9",
+      "capturedAt": "2026-11-15T14:06:46.574Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6ae9d1cd5618f_cover.jpg",
+      "localPath": "/media/covers/6ae9d1cd5618f_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 51093,
+      "checksum": "6525919186c8a13ca36fa56c5ccaf51c2d4784a6950c2c594cee21f697ea9eae",
+      "capturedAt": "2026-11-15T14:06:46.679Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6af3689fe85ec_cover.jpg",
+      "localPath": "/media/covers/6af3689fe85ec_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 38724,
+      "checksum": "5614d6109ef1f510df73a225e9de5b3bbc8393c3299f36b7bd256ffe0f8f28b5",
+      "capturedAt": "2026-11-15T14:06:46.679Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6ae86a044e8ad_cover.jpg",
+      "localPath": "/media/covers/6ae86a044e8ad_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 49246,
+      "checksum": "41b7ecb4080814d7b1547e0e0a050000e1cce286b0a583ef0ad23fabf61bb6ca",
+      "capturedAt": "2026-11-15T14:06:46.788Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6949bd498aa9e_poza_cristian_sporis.jpg",
+      "localPath": "/media/covers/6949bd498aa9e_poza_cristian_sporis.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 65093,
+      "checksum": "fcc42de60f155f0852e8b1d8f7c6a620e00dd6ed1a6a82879c200932f958fd93",
+      "capturedAt": "2026-11-15T14:06:46.791Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/694a8c48f2140_poza_marius_melesteu.jpg",
+      "localPath": "/media/covers/694a8c48f2140_poza_marius_melesteu.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 37119,
+      "checksum": "33ffdb905e7b5b9c4da2d953cd2ea2e6f8dd0ae76748c7d3c1da32b19771316c",
+      "capturedAt": "2026-11-15T14:06:46.896Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/694a79937ea6d_poza_karan_khurana.jpg",
+      "localPath": "/media/covers/694a79937ea6d_poza_karan_khurana.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 33105,
+      "checksum": "8d0f8327b528c16e42909c57c227ae6a9bc04d724d88052fe477a03c65a038e9",
+      "capturedAt": "2026-11-15T14:06:46.897Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6968e842a1ca6_poza_alexandru_aldescu.jpg",
+      "localPath": "/media/covers/6968e842a1ca6_poza_alexandru_aldescu.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 66221,
+      "checksum": "2c395ccc72a3ec3afa0360a2f9e0c4ac17b27149d1385e073e9b577dfafc2dbd",
+      "capturedAt": "2026-11-15T14:06:47.008Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/694a9f2e7c1a8_poza_razvan_copoiu.jpg",
+      "localPath": "/media/covers/694a9f2e7c1a8_poza_razvan_copoiu.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 32955,
+      "checksum": "c353b3e39cfe8499bba85889d7274d24c639e566ab202220339e77d7c79522fd",
+      "capturedAt": "2026-11-15T14:06:47.008Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6968deed214b2_poza_dorel_gutu.jpg",
+      "localPath": "/media/covers/6968deed214b2_poza_dorel_gutu.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 40384,
+      "checksum": "15ab5b8c5e897ad35b61fc42db5377677a45080fa08763728a38a1073ed7b667",
+      "capturedAt": "2026-11-15T14:06:47.111Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/695412c4c299a_cover.jpg",
+      "localPath": "/media/covers/695412c4c299a_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 53459,
+      "checksum": "a8d77dcfeb6dbba09b1e98ca0b4870ad8bb72b78dbe09e72032ff6d157ca15b1",
+      "capturedAt": "2026-11-15T14:06:47.114Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6954018829651_cover.jpg",
+      "localPath": "/media/covers/6954018829651_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 98639,
+      "checksum": "6039d0bbc5e9add06b78c20dec5a8dfde26066e8b0a86272646da3d2a3076c56",
+      "capturedAt": "2026-11-15T14:06:47.222Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/69540c434e540_cover.jpg",
+      "localPath": "/media/covers/69540c434e540_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 28767,
+      "checksum": "d8da63749cd508171ca5350cd1e25bec4afddc75a3052b158c11916a55e83816",
+      "capturedAt": "2026-11-15T14:06:47.222Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6953fa1edadf1_cover.jpg",
+      "localPath": "/media/covers/6953fa1edadf1_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 86298,
+      "checksum": "ab16cc6b58c2e6f0b1f6c614aff70166af95c269e547a91f220a005bd368fcb2",
+      "capturedAt": "2026-11-15T14:06:47.330Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/694ab255979c7_poza_stefano_albarosa.jpg",
+      "localPath": "/media/covers/694ab255979c7_poza_stefano_albarosa.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 115636,
+      "checksum": "abd9f955fa5b7888a58a2e48cdaa59c7ba7585c5d3c79ba107260403473d3f45",
+      "capturedAt": "2026-11-15T14:06:47.331Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/694a82aeaefdc_poza_marius_ionita.jpg",
+      "localPath": "/media/covers/694a82aeaefdc_poza_marius_ionita.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 42943,
+      "checksum": "37a75007d86cb71b0b86b2214191f370f837c0e2ada555242cc501a382cc648a",
+      "capturedAt": "2026-11-15T14:06:47.435Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6949b357ba029_poza_kai_uwe_trillenberg.jpg",
+      "localPath": "/media/covers/6949b357ba029_poza_kai_uwe_trillenberg.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 75582,
+      "checksum": "39429575c15183a57157a523bb9c505276d1bab37afdb3a191d8f0030801fde9",
+      "capturedAt": "2026-11-15T14:06:47.435Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6949a68c4555c_cover.jpg",
+      "localPath": "/media/covers/6949a68c4555c_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 25514,
+      "checksum": "e8ff37f9798ed13735dde9194ef1e4280ddd00e92097aa3ccfa56f124dfdfb40",
+      "capturedAt": "2026-11-15T14:06:47.541Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6af5aa64e639b_magda.jpg",
+      "localPath": "/media/covers/6af5aa64e639b_magda.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 38188,
+      "checksum": "20fa12bcdeaeb49a77e1d8618ad9621b9235c5a2d4b86069d51234ec0bcd58aa",
+      "capturedAt": "2026-11-15T14:06:47.541Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6af4520599a4a_elena.jpg",
+      "localPath": "/media/covers/6af4520599a4a_elena.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 68289,
+      "checksum": "524ef8cade51840b0dd02892447dc15edf942270a007b82afb5ce20be98ba0e3",
+      "capturedAt": "2026-11-15T14:06:47.639Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6ae9e4962c0bf_cover.jpg",
+      "localPath": "/media/covers/6ae9e4962c0bf_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 147787,
+      "checksum": "ae1edbd560b34ad482de287a15d9ff1a2c7da6e01d9b4f7ad94d90bbc61ce1d3",
+      "capturedAt": "2026-11-15T14:06:47.639Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6ae08a602b515_cover.jpg",
+      "localPath": "/media/covers/6ae08a602b515_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 59164,
+      "checksum": "92541c33ac73abe7dece7c833ada0e248ce7930530127b74afe8741c32f15023",
+      "capturedAt": "2026-11-15T14:06:47.745Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6ae36cc5bc50f_cover.jpg",
+      "localPath": "/media/covers/6ae36cc5bc50f_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 55919,
+      "checksum": "a76fd16c921fdd2e824ad4b868bbe1a1a9f087729f129cc08c993509a720cf70",
+      "capturedAt": "2026-11-15T14:06:47.745Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6adf2b840c909_cover.jpg",
+      "localPath": "/media/covers/6adf2b840c909_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 63374,
+      "checksum": "3043451c51dc63679f809ab8536ab7bd6c64f8c43f8ffafb8fe4389cbae9b8bd",
+      "capturedAt": "2026-11-15T14:06:47.854Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6adf305a7b8f1_cover.jpg",
+      "localPath": "/media/covers/6adf305a7b8f1_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 76406,
+      "checksum": "5653c979abbdee650c35d4d45652096ce54df81586572ad3f1aca52e7e406a35",
+      "capturedAt": "2026-11-15T14:06:47.854Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6ad73e5eaf7d6_cover.jpg",
+      "localPath": "/media/covers/6ad73e5eaf7d6_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 67544,
+      "checksum": "363b1c9830cd60c0d26f415f80ae7b1e4b5d7d3f27e4f9e1ccd269035afd5fe8",
+      "capturedAt": "2026-11-15T14:06:47.961Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6ad76556f367f_cover.jpg",
+      "localPath": "/media/covers/6ad76556f367f_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 80337,
+      "checksum": "c9d8fa659acb162e71e2238634a671053fae21fc402d52d95b566b0bad243a99",
+      "capturedAt": "2026-11-15T14:06:47.962Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6ad103590295d_cover.jpg",
+      "localPath": "/media/covers/6ad103590295d_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 39267,
+      "checksum": "add352fa7b8c890bc689e2dd88948ef97d98324ab67c927209474620d9178647",
+      "capturedAt": "2026-11-15T14:06:48.069Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6ad61d2b1b086_cover.jpg",
+      "localPath": "/media/covers/6ad61d2b1b086_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 85897,
+      "checksum": "0f6d582da12a06cc87a42ccb454a689e17233a9adf74c72cbfcd0cdd071e66d0",
+      "capturedAt": "2026-11-15T14:06:48.069Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6acf93106e996_cover.jpg",
+      "localPath": "/media/covers/6acf93106e996_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 36869,
+      "checksum": "33688973310f4e4ce6bf15b01e96ba5cd230c043ac35095f610bd723b8f87990",
+      "capturedAt": "2026-11-15T14:06:48.176Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6ad0efa0534b5_magda2.jpg",
+      "localPath": "/media/covers/6ad0efa0534b5_magda2.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 50630,
+      "checksum": "0a513a703e8e414d63bf1d775af5fb9bf527e35b5c74b7ee09385debac146a25",
+      "capturedAt": "2026-11-15T14:06:48.179Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6acf81d40d03e_cover.jpg",
+      "localPath": "/media/covers/6acf81d40d03e_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 68130,
+      "checksum": "15599ac250effe56a3ec1ab03e287a9ab357d3041942cf4dc6c80a4fac99f3e8",
+      "capturedAt": "2026-11-15T14:06:48.285Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6ace2dabcf72a_cover.jpg",
+      "localPath": "/media/covers/6ace2dabcf72a_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 72029,
+      "checksum": "927d53a75a84385f9a611f9e03c556655f77def051463d6016cf7c5d91725f10",
+      "capturedAt": "2026-11-15T14:06:48.285Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6acceb8a9267c_cover.jpg",
+      "localPath": "/media/covers/6acceb8a9267c_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 44381,
+      "checksum": "f7f565fc284fe02a887c18af4db463f56346d6dfb9d4d2a7f9a04dc69f2cf5c6",
+      "capturedAt": "2026-11-15T14:06:48.393Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6accc3857cdf5_cover.jpg",
+      "localPath": "/media/covers/6accc3857cdf5_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 63794,
+      "checksum": "8baf5994331e418282cc116f1f94bead86fad0bd738bf5484d5f667606adcd72",
+      "capturedAt": "2026-11-15T14:06:48.396Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6abe98644bc6e_cover.jpg",
+      "localPath": "/media/covers/6abe98644bc6e_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 66621,
+      "checksum": "affa962439917eb197ce65a382f37547b2e7e788b20b03b8ebab548810c9a636",
+      "capturedAt": "2026-11-15T14:06:48.502Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6ac4cd624b75b_cover.jpg",
+      "localPath": "/media/covers/6ac4cd624b75b_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 60629,
+      "checksum": "a2f411289736877191a5e2ad13d708f6133f5ffb9cf9094867257c4e25e20353",
+      "capturedAt": "2026-11-15T14:06:48.502Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6af5dda744519_cover.jpg",
+      "localPath": "/media/covers/6af5dda744519_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 75721,
+      "checksum": "75def1a000032727ad61529990027bb47e9f67bb88d3f1112e6f12022102b109",
+      "capturedAt": "2026-11-15T14:06:48.610Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6abcb49de2e0f_cover.jpg",
+      "localPath": "/media/covers/6abcb49de2e0f_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 72854,
+      "checksum": "013fbadda2670e9a0b6a5ef7fb2db3249435a4b5d89e50f57b888564c0c7d71c",
+      "capturedAt": "2026-11-15T14:06:48.610Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6ae8f1d9af1cb_cover.jpg",
+      "localPath": "/media/covers/6ae8f1d9af1cb_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 79941,
+      "checksum": "b76132f958b2ba85cbd28208011a78480298ae05554b44fcc2bcc01c3b38f8b0",
+      "capturedAt": "2026-11-15T14:06:48.719Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6ae216c51f4b3_cover.jpg",
+      "localPath": "/media/covers/6ae216c51f4b3_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 123766,
+      "checksum": "084ab6be747f57e732c21e9180ec2efdca053683e457b8186e41d088951b82d2",
+      "capturedAt": "2026-11-15T14:06:48.720Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6aba38ac23a0c_cover.jpg",
+      "localPath": "/media/covers/6aba38ac23a0c_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 51904,
+      "checksum": "ecd73513d3659d3aa0f963573d910f2847170818c99a09968ad55490492f649e",
+      "capturedAt": "2026-11-15T14:06:48.825Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6aa7bd8a1d00b_cover.jpg",
+      "localPath": "/media/covers/6aa7bd8a1d00b_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 95209,
+      "checksum": "cd59105841803329f9e58c1f33c4b3fe7607cadb6c0177489c3f2e261b1c1541",
+      "capturedAt": "2026-11-15T14:06:48.825Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6aa2c3517c93a_cover.jpg",
+      "localPath": "/media/covers/6aa2c3517c93a_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 18794,
+      "checksum": "1083d404cacb1ab656047a8c926a78193b84aafa23d27b7f92a78d20112b00c5",
+      "capturedAt": "2026-11-15T14:06:48.930Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/nocompany.png",
+      "localPath": "/media/nocompany.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 3227,
+      "checksum": "cfcda1459177e847f0481eda48cb9a9565abaedf164576e097590bef44f20c73",
+      "capturedAt": "2026-11-15T14:06:48.930Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/logos/5bd32e2f2026a_klg_europe.jpg",
+      "localPath": "/media/logos/5bd32e2f2026a_klg_europe.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 9658,
+      "checksum": "dc355ea40d7321a347d72829d51146b897d56233532dbf0b247bf4734989fe51",
+      "capturedAt": "2026-11-15T14:06:49.022Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/logos/5c37515e703e9_logo_ibcargo_300.jpg",
+      "localPath": "/media/logos/5c37515e703e9_logo_ibcargo_300.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 5722,
+      "checksum": "4ecf3dfc58147ce2a21b1d7b4a3f913f16e130e3dc7d44c90281fb7edb9bcf9b",
+      "capturedAt": "2026-11-15T14:06:49.022Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/logos/company_logo_951.jpg",
+      "localPath": "/media/logos/company_logo_951.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 2422,
+      "checksum": "2ded51e54cd93e87c20e803d653e014168ff642f293f53fa2b7e7c043c14f411",
+      "capturedAt": "2026-11-15T14:06:49.114Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/js/plugins.js",
+      "localPath": "/assets/js/plugins.js",
+      "status": 200,
+      "contentType": "text/javascript",
+      "bytes": 140032,
+      "checksum": "c79d4d6bc520bbb9a58a16aeb2caf6316367aece6f1108ec7c9e670fc7119f25",
+      "capturedAt": "2026-11-15T14:06:49.128Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/js/jquery.countdown.js",
+      "localPath": "/assets/js/jquery.countdown.js",
+      "status": 200,
+      "contentType": "text/javascript",
+      "bytes": 6675,
+      "checksum": "331d19e3dd1afdd5e196cda38b627eaf7f7afd8ee8b2803c7fdd6f7258277143",
+      "capturedAt": "2026-11-15T14:06:49.224Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/js/validator.js",
+      "localPath": "/assets/js/validator.js",
+      "status": 200,
+      "contentType": "text/javascript",
+      "bytes": 11870,
+      "checksum": "cd71c008dfad1c18f3d736dc86ca68fffc4742c4f60bfe00c16968cc0da21ea7",
+      "capturedAt": "2026-11-15T14:06:49.224Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/js/functions.js?v3.0",
+      "localPath": "/assets/js/functions--e9a30fbbf76f.js",
+      "status": 200,
+      "contentType": "text/javascript",
+      "bytes": 17622,
+      "checksum": "50cfa6bf5f2d47851a03a1ef7c8a751b20a8e6459e7073694fa405382a1f6724",
+      "capturedAt": "2026-11-15T14:06:49.321Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/657733f53c604_anda_marian_ceo_conference_cluj_2023.png",
+      "localPath": "/media/covers/657733f53c604_anda_marian_ceo_conference_cluj_2023.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 1087688,
+      "checksum": "f87d73b8f6e80178fdf449f85713ae5207f5711d76b1f0fa9291c979bee53c10",
+      "capturedAt": "2026-11-15T14:06:49.345Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6571c8c17d3d3_florin_frunza_ceoconference_cluj_2023.png",
+      "localPath": "/media/covers/6571c8c17d3d3_florin_frunza_ceoconference_cluj_2023.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 937276,
+      "checksum": "7eb51a366f2a4e1c9fa8181927d19f126f9c8b351706efd2d0c6dd03d38e68ca",
+      "capturedAt": "2026-11-15T14:06:49.482Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6576daebb2671_anca_rarau_ceo_conference_cluj_2023.png",
+      "localPath": "/media/covers/6576daebb2671_anca_rarau_ceo_conference_cluj_2023.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 1302942,
+      "checksum": "4841d6463a368375d2ffe0165a407acfa1dcf99a7b8b9e3208adfedf72bde584",
+      "capturedAt": "2026-11-15T14:06:49.499Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/656ee9ad4c538_gabriel_pavel_ceo_conference_2023.jpg",
+      "localPath": "/media/covers/656ee9ad4c538_gabriel_pavel_ceo_conference_2023.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 112459,
+      "checksum": "52512b625cdcceb6f514eb66ba2bde2e78f4c976078d9299f6d677272218167a",
+      "capturedAt": "2026-11-15T14:06:49.598Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6570d4be3bd19_florin_popa_ceo_conference.jpg",
+      "localPath": "/media/covers/6570d4be3bd19_florin_popa_ceo_conference.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 120015,
+      "checksum": "7eef407c708d61d241378bbc022f7a62d2de04756f782b0dadb068309465908e",
+      "capturedAt": "2026-11-15T14:06:49.598Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/60db2114a3c06_cover_image_canon.jpg",
+      "localPath": "/media/covers/60db2114a3c06_cover_image_canon.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 84650,
+      "checksum": "b42c0f70122e32fec5044f3922e88fd5cacc458ab29068997fc4467352a2adde",
+      "capturedAt": "2026-11-15T14:06:49.703Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/60db22fa1bd5e_cover_business_evolution.jpg",
+      "localPath": "/media/covers/60db22fa1bd5e_cover_business_evolution.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 35733,
+      "checksum": "2b3c5e318ca3799df651c5e8c2df827884a4875456125c80af574e4195cbd039",
+      "capturedAt": "2026-11-15T14:06:49.705Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/60db1e04bfa42_ceo_conference_3_martie_2021.jpg",
+      "localPath": "/media/covers/60db1e04bfa42_ceo_conference_3_martie_2021.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 108953,
+      "checksum": "7b727d70976c9953de7a3f6ac18507f928549260c4fa27aee24e662bb6ed4557",
+      "capturedAt": "2026-11-15T14:06:49.815Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/5fd8d175e7304_new_organizational_culture_banner_spk.jpg",
+      "localPath": "/media/covers/5fd8d175e7304_new_organizational_culture_banner_spk.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 199640,
+      "checksum": "595fa1ac752b6985c6c1303577bd4f098e122d892443efd9940697bc104d2215",
+      "capturedAt": "2026-11-15T14:06:49.816Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6531403c407e6_cover.jpg",
+      "localPath": "/media/covers/6531403c407e6_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 29443,
+      "checksum": "4bcae6a35592fa18a15f6713c3662ec8fb8b70c9dc7cdc7faa39f952858e9b17",
+      "capturedAt": "2026-11-15T14:06:49.916Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/5f928d53844a4_technology_and_the_new_innovative_business_models.jpg",
+      "localPath": "/media/covers/5f928d53844a4_technology_and_the_new_innovative_business_models.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 197810,
+      "checksum": "92c02865b4d0167c3b9efe9cbbf9c0efbfd4942b4169de2fbcf5cb5615d4b760",
+      "capturedAt": "2026-11-15T14:06:49.922Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/651bf880e68f2_cover.jpg",
+      "localPath": "/media/covers/651bf880e68f2_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 27472,
+      "checksum": "0c43c04381511b7bc74f442df912f65c22516cbaccd34724b7bcaf01f4f48a54",
+      "capturedAt": "2026-11-15T14:06:50.026Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/652e65df54718_cover.jpg",
+      "localPath": "/media/covers/652e65df54718_cover.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 54077,
+      "checksum": "ed093c61252d9e96b3387b163125dacc2c3012cfa326b8ce557257a8dbca280f",
+      "capturedAt": "2026-11-15T14:06:50.026Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/5e304b979c66e_infografic_profitabilitate.jpg",
+      "localPath": "/media/covers/5e304b979c66e_infografic_profitabilitate.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 94573,
+      "checksum": "b69d0ffbe1b05da0e1a415bfb4bd199a699de229a75c98a85a79d3b48582f90d",
+      "capturedAt": "2026-11-15T14:06:50.137Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/5e3015d830ee2_dinu_bumbacea.jpg",
+      "localPath": "/media/covers/5e3015d830ee2_dinu_bumbacea.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 1472109,
+      "checksum": "c9fafca4ae8430b61e311bc4b762caaf955ca9c899b0f6986ee4e62e9730876f",
+      "capturedAt": "2026-11-15T14:06:50.176Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6a6c7f8b2fd61_iasi.png",
+      "localPath": "/media/covers/6a6c7f8b2fd61_iasi.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 1014167,
+      "checksum": "37975403fbd31abb3167b0e9eb61f8cd1c25c2d105224298a81305f488ffdf26",
+      "capturedAt": "2026-11-15T14:06:50.315Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6a6c7f19cb562_cluj.png",
+      "localPath": "/media/covers/6a6c7f19cb562_cluj.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 974082,
+      "checksum": "48ea24a99c25fc3e27e52d70f9e092fb127be495e279c19fd493b4256bca2615",
+      "capturedAt": "2026-11-15T14:06:50.321Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/lib/plugins/bootstrap/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.eot",
+      "localPath": "/lib/plugins/bootstrap/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.eot",
+      "status": 200,
+      "contentType": "application/vnd.ms-fontobject",
+      "bytes": 20127,
+      "checksum": "13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407",
+      "capturedAt": "2026-11-15T14:06:50.428Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/covers/6a6b46005091b_ceo_conference_2026.jpg",
+      "localPath": "/media/covers/6a6b46005091b_ceo_conference_2026.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 292690,
+      "checksum": "7d89420df4fd34e4c43c0c634091f97ccb023100714e2588229052020da37a6b",
+      "capturedAt": "2026-11-15T14:06:50.433Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/lib/plugins/bootstrap/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff2",
+      "localPath": "/lib/plugins/bootstrap/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff2",
+      "status": 200,
+      "contentType": "font/woff2",
+      "bytes": 18028,
+      "checksum": "fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c",
+      "capturedAt": "2026-11-15T14:06:50.535Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/lib/plugins/bootstrap/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.eot?",
+      "localPath": "/lib/plugins/bootstrap/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.eot",
+      "status": 200,
+      "contentType": "application/vnd.ms-fontobject",
+      "bytes": 20127,
+      "checksum": "13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407",
+      "capturedAt": "2026-11-15T14:06:50.535Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/lib/plugins/bootstrap/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff",
+      "localPath": "/lib/plugins/bootstrap/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff",
+      "status": 200,
+      "contentType": "font/woff",
+      "bytes": 23424,
+      "checksum": "a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742",
+      "capturedAt": "2026-11-15T14:06:50.641Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/lib/plugins/bootstrap/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.ttf",
+      "localPath": "/lib/plugins/bootstrap/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.ttf",
+      "status": 200,
+      "contentType": "font/ttf",
+      "bytes": 45404,
+      "checksum": "e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456",
+      "capturedAt": "2026-11-15T14:06:50.644Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/fonts/fontawesome-webfont.eot?v=4.0.3",
+      "localPath": "/assets/fonts/fontawesome-webfont--162211759b64.eot",
+      "status": 200,
+      "contentType": "application/vnd.ms-fontobject",
+      "bytes": 38205,
+      "checksum": "39e237c07403e62f00bd6ddf0b59d3349c7bd3869250aaadc389419db6aa40ef",
+      "capturedAt": "2026-11-15T14:06:50.750Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/lib/plugins/bootstrap/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.svg",
+      "localPath": "/lib/plugins/bootstrap/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 108738,
+      "checksum": "42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5",
+      "capturedAt": "2026-11-15T14:06:50.757Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/fonts/fontawesome-webfont.woff?v=4.0.3",
+      "localPath": "/assets/fonts/fontawesome-webfont--162211759b64.woff",
+      "status": 200,
+      "contentType": "font/woff",
+      "bytes": 44432,
+      "checksum": "0fd28fece9ebd606b8b071460ebd3fc2ed7bc7a66ef91c8834f11dfacab4a849",
+      "capturedAt": "2026-11-15T14:06:50.856Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/fonts/fontawesome-webfont.eot?",
+      "localPath": "/assets/fonts/fontawesome-webfont.eot",
+      "status": 200,
+      "contentType": "application/vnd.ms-fontobject",
+      "bytes": 38205,
+      "checksum": "39e237c07403e62f00bd6ddf0b59d3349c7bd3869250aaadc389419db6aa40ef",
+      "capturedAt": "2026-11-15T14:06:50.856Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/fonts/fontawesome-webfont.ttf?v=4.0.3",
+      "localPath": "/assets/fonts/fontawesome-webfont--162211759b64.ttf",
+      "status": 200,
+      "contentType": "font/ttf",
+      "bytes": 80652,
+      "checksum": "6b49348ad53886d09ce4c32fa146e899c820de3f85a8dd3704a0624eb3bf7fa1",
+      "capturedAt": "2026-11-15T14:06:50.974Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/fonts/fontawesome-webfont.svg?v=4.0.3",
+      "localPath": "/assets/fonts/fontawesome-webfont--162211759b64.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 202561,
+      "checksum": "7b8b744559f1acc526ea9b5f340f6fbf151c1f07114cddff85983ef77c754be4",
+      "capturedAt": "2026-11-15T14:06:50.982Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/css/fonts/flexslider-icon.eot",
+      "localPath": "/assets/css/fonts/flexslider-icon.eot",
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 117939,
+      "checksum": "285621457e9e29c762837a69f2191fce716d7a41694496e4b3793dd8bad6ef59",
+      "capturedAt": "2026-11-15T14:06:51.190Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/css/fonts/flexslider-icon.eot?",
+      "localPath": "/assets/css/fonts/flexslider-icon.eot",
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 117939,
+      "checksum": "285621457e9e29c762837a69f2191fce716d7a41694496e4b3793dd8bad6ef59",
+      "capturedAt": "2026-11-15T14:06:51.197Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/css/fonts/flexslider-icon.ttf",
+      "localPath": "/assets/css/fonts/flexslider-icon.ttf",
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 117939,
+      "checksum": "56f0bb65a412a49d20b3b5204e3ef0aa1bfd110cfc549dd00fa6f2cf45063c9a",
+      "capturedAt": "2026-11-15T14:06:51.412Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/css/fonts/flexslider-icon.woff",
+      "localPath": "/assets/css/fonts/flexslider-icon.woff",
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 117941,
+      "checksum": "af25b0e0d38f13a6ea64869297ad12f6c839d74918e139e1448a75ee9f26e4f4",
+      "capturedAt": "2026-11-15T14:06:51.421Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/css/fonts/flexslider-icon.svg",
+      "localPath": "/assets/css/fonts/flexslider-icon.svg",
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 117910,
+      "checksum": "154966b4cad5d7c746fe77d3e5177bd0f753ed96d24d69eded9686fefc2db1ff",
+      "capturedAt": "2026-11-15T14:06:51.620Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/css/grabbing.png",
+      "localPath": "/assets/css/grabbing.png",
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 117913,
+      "checksum": "16298e4b7cf78a62e4a5820829699cdd8926f5538481795da62057f304880e35",
+      "capturedAt": "2026-11-15T14:06:51.622Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/css/mCSB_buttons.png",
+      "localPath": "/assets/css/mCSB_buttons.png",
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 117921,
+      "checksum": "08d4dbedbceb9d538661967fe41dd7f2fad8146cf2c6558a5e5d4c2af197b394",
+      "capturedAt": "2026-11-15T14:06:51.821Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/css/AjaxLoader.gif",
+      "localPath": "/assets/css/AjaxLoader.gif",
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 117888,
+      "checksum": "32d411f85c5705ec34c3e66cec106e0c7c1b21cc00fe90ab0280f4c970276d66",
+      "capturedAt": "2026-11-15T14:06:51.821Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/img/prev.png",
+      "localPath": "/assets/img/prev.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 3017,
+      "checksum": "34921492bd678887bde44916fd935fac16216dc1a8c5503bb22a3c24a8a5d609",
+      "capturedAt": "2026-11-15T14:06:51.916Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/img/close.png",
+      "localPath": "/assets/img/close.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 3032,
+      "checksum": "3cfe7e742972cae9534dff1dd66d8a12e629393cba6747ff151a21529d4dcae3",
+      "capturedAt": "2026-11-15T14:06:51.916Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/img/next.png",
+      "localPath": "/assets/img/next.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 257,
+      "checksum": "b3b7f6d24b60d1c8a7a80408a081be5ff9d0ae0ad484f3eb17435e066c50f177",
+      "capturedAt": "2026-11-15T14:06:52.008Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/img/zoom.png",
+      "localPath": "/assets/img/zoom.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 3199,
+      "checksum": "568da9f5b233652f7d979a6ddf33d5d2037cb59981d88de7d839dfb6fd46f091",
+      "capturedAt": "2026-11-15T14:06:52.008Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/img/twitter.gif",
+      "localPath": "/assets/img/twitter.gif",
+      "status": 200,
+      "contentType": "image/gif",
+      "bytes": 1261,
+      "checksum": "edd46876a24b86928e74b1bc5466ab7c27b39380ed49e3693463c63c2c411a6a",
+      "capturedAt": "2026-11-15T14:06:52.102Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/assets/img/ui.totop.png",
+      "localPath": "/assets/img/ui.totop.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 507,
+      "checksum": "ab6aec9032ed1a5078e435117f184880563b9a49b48917928af06ed5ad03fd16",
+      "capturedAt": "2026-11-15T14:06:52.102Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/rank1.png",
+      "localPath": "/media/rank1.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 14208,
+      "checksum": "e2cb3bd88321881e8ae7a2e6ea038e9b901a4c0adde33a457e12f108dbe7c5ba",
+      "capturedAt": "2026-11-15T14:06:52.194Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/banners/download-parallax-bgnd.jpg",
+      "localPath": "/media/banners/download-parallax-bgnd.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 293270,
+      "checksum": "58afe2f3589dcd271d3da4a9f00d5992c8529aff3112d3e800f980922a983917",
+      "capturedAt": "2026-11-15T14:06:52.202Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/media/rank.png",
+      "localPath": "/media/rank.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 14208,
+      "checksum": "44fd6b5a5d5312e82d6a0b9ae310ce75fadfa83d6e9f43fc3eb98184467a45e1",
+      "capturedAt": "2026-11-15T14:06:52.302Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/lib/plugins/jQueryUI/jquery-ui-1.13.2/images/ui-icons_444444_256x240.png",
+      "localPath": "/lib/plugins/jQueryUI/jquery-ui-1.13.2/images/ui-icons_444444_256x240.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 7142,
+      "checksum": "2cd2a1b0f8368d37835f82a3a52733d871bf4e9db4cd047ca985d01c07169624",
+      "capturedAt": "2026-11-15T14:06:52.302Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/lib/plugins/jQueryUI/jquery-ui-1.13.2/images/ui-icons_555555_256x240.png",
+      "localPath": "/lib/plugins/jQueryUI/jquery-ui-1.13.2/images/ui-icons_555555_256x240.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 7126,
+      "checksum": "54f8df7cd82406c088d31014a63119a58ff5949db3595db0017fdee1ee8cc59f",
+      "capturedAt": "2026-11-15T14:06:52.394Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/lib/plugins/jQueryUI/jquery-ui-1.13.2/images/ui-icons_ffffff_256x240.png",
+      "localPath": "/lib/plugins/jQueryUI/jquery-ui-1.13.2/images/ui-icons_ffffff_256x240.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 6539,
+      "checksum": "dd4f2cf82225df51de9bc86041d73935d352b0501712acf216d1097a586ff6d3",
+      "capturedAt": "2026-11-15T14:06:52.394Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/lib/plugins/jQueryUI/jquery-ui-1.13.2/images/ui-icons_777620_256x240.png",
+      "localPath": "/lib/plugins/jQueryUI/jquery-ui-1.13.2/images/ui-icons_777620_256x240.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 4670,
+      "checksum": "02368ab6d6d228b3c3aea277361ce42a4139e4fa1d521470ffc79866a79be4f4",
+      "capturedAt": "2026-11-15T14:06:52.488Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/lib/plugins/jQueryUI/jquery-ui-1.13.2/images/ui-icons_cc0000_256x240.png",
+      "localPath": "/lib/plugins/jQueryUI/jquery-ui-1.13.2/images/ui-icons_cc0000_256x240.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 4670,
+      "checksum": "a1a653a7a5c4e035d78aca9d2d9c074496a2c4e092d93be903de643e6a03a1d9",
+      "capturedAt": "2026-11-15T14:06:52.488Z"
+    },
+    {
+      "sourceUrl": "https://doingbusiness.ro/lib/plugins/jQueryUI/jquery-ui-1.13.2/images/ui-icons_777777_256x240.png",
+      "localPath": "/lib/plugins/jQueryUI/jquery-ui-1.13.2/images/ui-icons_777777_256x240.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 7163,
+      "checksum": "4d93422fc12810c6e4b756a1c800244ea058b04e9cc47af01051e4ec38db8d33",
+      "capturedAt": "2026-11-15T14:06:52.582Z"
+    }
+  ],
+  "failures": []
+}

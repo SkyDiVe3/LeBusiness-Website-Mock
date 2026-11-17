@@ -1,0 +1,522 @@
+{
+  "generatedAt": "2026-11-16T15:23:23Z",
+  "baseUrl": "http://localhost:3010",
+  "assetsDirectory": "docs/comparison-assets/local",
+  "minimumScreenshotSizeRuleBytes": 10240,
+  "captureMethod": "Headless Microsoft Edge via Chrome DevTools Protocol (CDP) against production Next.js build (node scripts/serve-mock.mjs)",
+  "designSystemSummary": {
+    "typography": {
+      "displaySerif": "Instrument Serif",
+      "bodySans": "Outfit",
+      "technicalMono": "JetBrains Mono"
+    },
+    "contrastAndAccessibility": [
+      "WCAG AA contrast palette: #18181B ink on #F8FAFC canvas / #FFFFFF surface, #B45309 primary accent (#FFFFFF on #B45309 primary CTAs), #0F172A dark header utility bar and footer with #F8FAFC / #CBD5E1 ink",
+      "Visible :focus-visible 2px #B45309 outline, skip-to-content link, semantic landmarks, and prefers-reduced-motion support",
+      "Zero horizontal overflow (overflowPx === 0) verified across desktop (1440x900) and mobile (390x844)"
+    ],
+    "securityAndPerformance": [
+      "Zero Cloudflare Turnstile challenge scripts or #turnstile-widget overlays",
+      "Zero external Revive Adserver or AdOcean ad scripts and containers",
+      "Non-blocking left-to-right (LTR) skeletal shimmer loaders (app/loading.tsx, .skeleton-line::after, .route-progress-track / .route-progress-fill) replacing legacy blocking GIF loader",
+      "GPU-composited VerticalSidebarCarousel (translate3d with cubic-bezier(0.22, 1, 0.36, 1) and hover/focus/reduced-motion pause)"
+    ],
+    "heroRedesignSummary": {
+      "desktopLayout": "1.15fr / 0.85fr .hero-grid with flush top/bottom alignment (467.11px height for both .hero-copy-panel and .hero-event-card at 1440x900)",
+      "centeredHeroCopyPanel": "Centered eyebrow, Instrument Serif H1 with inline editorial pills, lead copy, and centered dual CTAs (Exploreaza Major Companies, Descopera Linkleaders)",
+      "centeredMagazineSpotlight": "1020px-wide centered .hero-magazine-spotlight directly below .hero-grid featuring /media/downloads/2025/MCR-2025-Digital.jpg, JetBrains Mono edition stats, PDF download (/media/downloads/2024/Major-Companies-in-Romania-2024-fp.pdf), digital edition (/top-companii), and CUI directory (/companii) CTAs"
+    }
+  },
+  "agenticAndDiscoveryEndpoints": [
+    {
+      "path": "/llms.txt",
+      "httpStatus": 200,
+      "contentType": "text/markdown; charset=utf-8",
+      "responseBytes": 12867,
+      "observedBehavior": "Structured Markdown catalog of navigation routes, machine-readable APIs, Romanian companies, and editorial highlights"
+    },
+    {
+      "path": "/openapi.json",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "responseBytes": 2011,
+      "observedBehavior": "Valid OpenAPI 3.1.0 specification covering /api/health, /api/companies, and /api/contact"
+    },
+    {
+      "path": "/.well-known/api-catalog",
+      "httpStatus": 200,
+      "contentType": "application/linkset+json; charset=utf-8",
+      "responseBytes": 598,
+      "observedBehavior": "RFC 9727 linkset+json api-catalog pointing to /openapi.json and /llms.txt"
+    },
+    {
+      "path": "/robots.txt",
+      "httpStatus": 200,
+      "contentType": "text/plain",
+      "responseBytes": 367,
+      "observedBehavior": "Explicit Allow rules for Googlebot, GPTBot, ClaudeBot, PerplexityBot, and Sitemap reference"
+    },
+    {
+      "path": "/sitemap.xml",
+      "httpStatus": 200,
+      "contentType": "application/xml",
+      "responseBytes": 14162,
+      "observedBehavior": "Dynamic XML sitemap listing public routes, company profiles, and editorial articles"
+    },
+    {
+      "path": "/api/health",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "responseBytes": 42,
+      "observedBehavior": "Returns {\"status\":\"ok\",\"environment\":\"production\"}"
+    },
+    {
+      "path": "/api/companies?q=OMV",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "responseBytes": 869,
+      "observedBehavior": "Zod-validated JSON search returning matching company records (OMV Petrom, CUI 1590082, CAEN 0610)"
+    },
+    {
+      "path": "/api/companies?county=B&caen=0610",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "responseBytes": 869,
+      "observedBehavior": "Combined county (judet) and 4-digit CAEN filtering returns 200 JSON"
+    },
+    {
+      "path": "/api/companies?caen=invalid",
+      "httpStatus": 400,
+      "contentType": "application/json",
+      "responseBytes": 138,
+      "observedBehavior": "Zod validation rejects malformed CAEN parameter with 400 JSON fieldErrors"
+    },
+    {
+      "path": "/api/contact",
+      "httpStatus": 202,
+      "contentType": "application/json",
+      "observedBehavior": "POST validates payload via Zod: returns 400 on invalid input and 202 {\"accepted\":true} on valid structured submission"
+    },
+    {
+      "path": "/ (Accept: text/markdown)",
+      "httpStatus": 200,
+      "contentType": "text/markdown; charset=utf-8",
+      "responseBytes": 1620,
+      "observedBehavior": "Middleware rewrites Accept: text/markdown requests to /api/markdown for agentic Markdown consumption (also verified on /companii)"
+    },
+    {
+      "path": "/dezvoltarea-afacerii",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "responseBytes": 40707,
+      "observedBehavior": "Romanian alias route resolves cleanly with HTTP 200"
+    }
+  ],
+  "routes": [
+    {
+      "comparisonKey": "home-desktop",
+      "route": "/",
+      "screenshot": "home-desktop.png",
+      "viewport": "1440x900",
+      "httpStatus": 200,
+      "screenshotBytes": 331336,
+      "title": "DoingBusiness.ro | Solutii integrate B2B si Major Companies",
+      "h1": "Decizii clare pentru liderii pietei romanesti.",
+      "domMetrics": {
+        "bodyTextLength": 8655,
+        "scrollHeight": 6970,
+        "horizontalOverflowPx": 0,
+        "totalImages": 49,
+        "brokenImages": [],
+        "hasTurnstileOrAds": false,
+        "heroCopyPanelRect": { "width": 761.3, "height": 467.11, "top": 127.58, "bottom": 594.69 },
+        "heroEventCardRect": { "width": 562.7, "height": 467.11, "top": 127.58, "bottom": 594.69 },
+        "heroMagazineSpotlightRect": { "left": 210, "right": 1230, "width": 1020, "height": 283.77 }
+      },
+      "optimizedFeatures": [
+        "Google Stitch centered .hero-copy-panel aligned flush (467.11px) alongside stretched .hero-event-card",
+        "Centered .hero-magazine-spotlight below .hero-grid displaying Major Companies 2025 cover, JetBrains Mono stats, PDF download, digital edition, and CUI directory CTAs",
+        "Single sticky glassmorphic header + dark #0F172A utility bar replacing 4-tier legacy header and 728x90 Revive ad banner",
+        "Zero Cloudflare Turnstile widget, zero ad slots, zero broken images"
+      ]
+    },
+    {
+      "comparisonKey": "home-editorial-desktop",
+      "route": "/#editorial-digest",
+      "screenshot": "home-editorial-desktop.png",
+      "viewport": "1440x900 (scrolled to y=881)",
+      "httpStatus": 200,
+      "screenshotBytes": 273650,
+      "title": "DoingBusiness.ro | Solutii integrate B2B si Major Companies",
+      "h1": "Decizii clare pentru liderii pietei romanesti.",
+      "domMetrics": {
+        "bodyTextLength": 8655,
+        "scrollHeight": 6970,
+        "horizontalOverflowPx": 0,
+        "totalImages": 49,
+        "brokenImages": [],
+        "hasTurnstileOrAds": false
+      },
+      "optimizedFeatures": [
+        "2-article asymmetric editorial split (.editorial-asymmetric): 1 featured lead card alongside 2 stacked compact cards",
+        "GPU-composited VerticalSidebarCarousel (Interviuri 5/6 indicator and progress dots) using translate3d with pause on hover/focus/reduced-motion",
+        "Clean whitespace, Instrument Serif section titles, and JetBrains Mono metadata replacing dark #262626 legacy sidebar"
+      ]
+    },
+    {
+      "comparisonKey": "home-mobile",
+      "route": "/",
+      "screenshot": "home-mobile.png",
+      "viewport": "390x844",
+      "httpStatus": 200,
+      "screenshotBytes": 124069,
+      "title": "DoingBusiness.ro | Solutii integrate B2B si Major Companies",
+      "h1": "Decizii clare pentru liderii pietei romanesti.",
+      "domMetrics": {
+        "bodyTextLength": 8321,
+        "scrollHeight": 13214,
+        "horizontalOverflowPx": 0,
+        "totalImages": 49,
+        "brokenImages": [],
+        "hasTurnstileOrAds": false
+      },
+      "optimizedFeatures": [
+        "Clean 390x844 mobile hero stack with .hero-mobile-strip thumbnails, centered copy, full-width touch CTAs, and 0px horizontal overflow",
+        "Eliminates Cloudflare Turnstile error box, mobile ad banner, and reduces total page scroll height from 22,675px to 13,214px"
+      ]
+    },
+    {
+      "comparisonKey": "mobile-modal-menu",
+      "route": "/#mobile-menu",
+      "screenshot": "mobile-modal-menu.png",
+      "viewport": "390x844 (modal drawer open)",
+      "httpStatus": 200,
+      "screenshotBytes": 34275,
+      "title": "DoingBusiness.ro | Solutii integrate B2B si Major Companies",
+      "h1": "Decizii clare pentru liderii pietei romanesti.",
+      "domMetrics": {
+        "bodyTextLength": 8321,
+        "scrollHeight": 13214,
+        "horizontalOverflowPx": 0,
+        "totalImages": 49,
+        "brokenImages": [],
+        "hasTurnstileOrAds": false,
+        "modalOpen": true,
+        "expandedAccordions": 2
+      },
+      "optimizedFeatures": [
+        "High-contrast opaque #site-sidenav-modal drawer with backdrop, Escape-key close handler, and aria-expanded accordion submenus (Linkleaders & Despre noi expanded)",
+        "44px+ touch targets and contact footer inside drawer, fixing legacy translucent overlay bleed-through"
+      ]
+    },
+    {
+      "comparisonKey": "editorial",
+      "route": "/editorial",
+      "screenshot": "editorial.png",
+      "viewport": "1440x900",
+      "httpStatus": 200,
+      "screenshotBytes": 261473,
+      "title": "Linkleaders · Editorial | DoingBusiness.ro",
+      "h1": "Linkleaders",
+      "domMetrics": {
+        "bodyTextLength": 8511,
+        "scrollHeight": 5803,
+        "horizontalOverflowPx": 0,
+        "totalImages": 45,
+        "brokenImages": [],
+        "hasTurnstileOrAds": false
+      },
+      "optimizedFeatures": [
+        "Unified editorial portal grouping Interviuri, Leader Insights, Business Digest, and Stiri with breadcrumb PageHero",
+        "Zero Revive Adserver banners or Turnstile blockers"
+      ]
+    },
+    {
+      "comparisonKey": "articole",
+      "route": "/articole",
+      "screenshot": "articole.png",
+      "viewport": "1440x900",
+      "httpStatus": 200,
+      "screenshotBytes": 384667,
+      "title": "Business Digest · Articole | DoingBusiness.ro",
+      "h1": "Business Digest",
+      "domMetrics": {
+        "bodyTextLength": 6216,
+        "scrollHeight": 3203,
+        "horizontalOverflowPx": 0,
+        "totalImages": 37,
+        "brokenImages": [],
+        "hasTurnstileOrAds": false
+      },
+      "optimizedFeatures": [
+        "2-column modern editorial card grid with clean aspect-ratio covers and sidebar Webinarii/Articole widgets",
+        "Supports Next.js loading.tsx LTR skeleton transitions and Accept: text/markdown negotiation"
+      ]
+    },
+    {
+      "comparisonKey": "stiri",
+      "route": "/stiri",
+      "screenshot": "stiri.png",
+      "viewport": "1440x900",
+      "httpStatus": 200,
+      "screenshotBytes": 327458,
+      "title": "Stiri · Business Digest | DoingBusiness.ro",
+      "h1": "Stiri",
+      "domMetrics": {
+        "bodyTextLength": 5566,
+        "scrollHeight": 2555,
+        "horizontalOverflowPx": 0,
+        "totalImages": 35,
+        "brokenImages": [],
+        "hasTurnstileOrAds": false
+      },
+      "optimizedFeatures": [
+        "Immediate above-the-fold news cards without 450px header/ad/Turnstile chrome overhead",
+        "Consistent typography hierarchy (Instrument Serif + Outfit + JetBrains Mono metadata)"
+      ]
+    },
+    {
+      "comparisonKey": "interviuri",
+      "route": "/interviuri",
+      "screenshot": "interviuri.png",
+      "viewport": "1440x900",
+      "httpStatus": 200,
+      "screenshotBytes": 300001,
+      "title": "Interviuri · LinkLeaders | DoingBusiness.ro",
+      "h1": "Interviuri LinkLeaders",
+      "domMetrics": {
+        "bodyTextLength": 5413,
+        "scrollHeight": 2555,
+        "horizontalOverflowPx": 0,
+        "totalImages": 35,
+        "brokenImages": [],
+        "hasTurnstileOrAds": false
+      },
+      "optimizedFeatures": [
+        "Sentence-case executive interview headlines replacing all-caps truncated legacy headlines",
+        "Clean editorial sidebar and zero ad/Turnstile interference"
+      ]
+    },
+    {
+      "comparisonKey": "video-interviuri",
+      "route": "/video-interviuri",
+      "screenshot": "video-interviuri.png",
+      "viewport": "1440x900",
+      "httpStatus": 200,
+      "screenshotBytes": 465924,
+      "title": "Leader Insights · Interviuri video | DoingBusiness.ro",
+      "h1": "Leader Insights",
+      "domMetrics": {
+        "bodyTextLength": 5213,
+        "scrollHeight": 2484,
+        "horizontalOverflowPx": 0,
+        "totalImages": 34,
+        "brokenImages": [],
+        "hasTurnstileOrAds": false
+      },
+      "optimizedFeatures": [
+        "Responsive Leader Insights video interview showcase with structured executive metadata",
+        "Zero Revive Adserver or Turnstile scripts"
+      ]
+    },
+    {
+      "comparisonKey": "business-drive",
+      "route": "/business-drive",
+      "screenshot": "business-drive.png",
+      "viewport": "1440x900",
+      "httpStatus": 200,
+      "screenshotBytes": 328638,
+      "title": "Business & Drive | DoingBusiness.ro",
+      "h1": "Business & Drive",
+      "domMetrics": {
+        "bodyTextLength": 5362,
+        "scrollHeight": 2505,
+        "horizontalOverflowPx": 0,
+        "totalImages": 35,
+        "brokenImages": [],
+        "hasTurnstileOrAds": false
+      },
+      "optimizedFeatures": [
+        "Uniform object-cover automotive photography cards paired with sidebar editorial widgets",
+        "Consistent WCAG AA surface contrast and zero external ad slots"
+      ]
+    },
+    {
+      "comparisonKey": "evenimente",
+      "route": "/evenimente",
+      "screenshot": "evenimente.png",
+      "viewport": "1440x900",
+      "httpStatus": 200,
+      "screenshotBytes": 261230,
+      "title": "Evenimente · CEO Conference & Business Evolution | DoingBusiness.ro",
+      "h1": "Evenimente",
+      "domMetrics": {
+        "bodyTextLength": 5744,
+        "scrollHeight": 3510,
+        "horizontalOverflowPx": 0,
+        "totalImages": 36,
+        "brokenImages": [],
+        "hasTurnstileOrAds": false
+      },
+      "optimizedFeatures": [
+        "Unified navigation chrome eliminating the abrupt legacy #ff9800 orange navbar contrast failure",
+        "Structured event sections for CEO Conference, Business Evolution, Alte Evenimente, and Webinarii"
+      ]
+    },
+    {
+      "comparisonKey": "webinarii",
+      "route": "/webinarii",
+      "screenshot": "webinarii.png",
+      "viewport": "1440x900",
+      "httpStatus": 200,
+      "screenshotBytes": 426148,
+      "title": "Webinarii · DoingBusiness.ro | DoingBusiness.ro",
+      "h1": "Webinarii",
+      "domMetrics": {
+        "bodyTextLength": 4805,
+        "scrollHeight": 2484,
+        "horizontalOverflowPx": 0,
+        "totalImages": 33,
+        "brokenImages": [],
+        "hasTurnstileOrAds": false
+      },
+      "optimizedFeatures": [
+        "Accessible high-contrast header/body layout replacing orange low-contrast legacy shell",
+        "Clean 2-column webinar archive with zero Revive ads or Turnstile scripts"
+      ]
+    },
+    {
+      "comparisonKey": "top-companii",
+      "route": "/top-companii",
+      "screenshot": "top-companii.png",
+      "viewport": "1440x900",
+      "httpStatus": 200,
+      "screenshotBytes": 263827,
+      "title": "Major Companies in Romania | DoingBusiness.ro",
+      "h1": "Major Companies",
+      "domMetrics": {
+        "bodyTextLength": 4158,
+        "scrollHeight": 3498,
+        "horizontalOverflowPx": 0,
+        "totalImages": 7,
+        "brokenImages": [],
+        "hasTurnstileOrAds": false
+      },
+      "optimizedFeatures": [
+        "Replaces legacy 0-byte Turnstile-gated /top-companii/ response with full SSR Major Companies 2025 publication showcase",
+        "Direct PDF download (/media/downloads/2024/Major-Companies-in-Romania-2024-fp.pdf), industry pills, and deep links into /companii"
+      ]
+    },
+    {
+      "comparisonKey": "companii",
+      "route": "/companii",
+      "screenshot": "companii.png",
+      "viewport": "1440x900",
+      "httpStatus": 200,
+      "screenshotBytes": 99801,
+      "title": "Director companii | DoingBusiness.ro",
+      "h1": "Directorul companiilor românești",
+      "domMetrics": {
+        "bodyTextLength": 4554,
+        "scrollHeight": 2625,
+        "horizontalOverflowPx": 0,
+        "totalImages": 6,
+        "brokenImages": [],
+        "hasTurnstileOrAds": false
+      },
+      "optimizedFeatures": [
+        "Interactive Zod-validated Romanian company directory (name/CUI/CAEN query, county/judet select, 4-digit CAEN select, turnover/employees/name sort)",
+        "URL query synchronization + /api/companies JSON backend + JetBrains Mono CUI badges + copy-CUI action + clean monogram fallbacks"
+      ]
+    },
+    {
+      "comparisonKey": "despre-noi",
+      "route": "/despre-noi",
+      "screenshot": "despre-noi.png",
+      "viewport": "1440x900",
+      "httpStatus": 200,
+      "screenshotBytes": 87293,
+      "title": "Despre noi | DoingBusiness.ro",
+      "h1": "Despre noi",
+      "domMetrics": {
+        "bodyTextLength": 3056,
+        "scrollHeight": 2440,
+        "horizontalOverflowPx": 0,
+        "totalImages": 3,
+        "brokenImages": [],
+        "hasTurnstileOrAds": false
+      },
+      "optimizedFeatures": [
+        "Structured institutional overview with dedicated service links to /linkleaders and /business-development",
+        "Eliminates legacy .contact-us form-group hacks, Turnstile widget, and Revive ad banners"
+      ]
+    },
+    {
+      "comparisonKey": "linkleaders",
+      "route": "/linkleaders",
+      "screenshot": "linkleaders.png",
+      "viewport": "1440x900",
+      "httpStatus": 200,
+      "screenshotBytes": 308601,
+      "title": "LinkLeaders | DoingBusiness.ro",
+      "h1": "LinkLeaders",
+      "domMetrics": {
+        "bodyTextLength": 5716,
+        "scrollHeight": 4050,
+        "horizontalOverflowPx": 0,
+        "totalImages": 6,
+        "brokenImages": [],
+        "hasTurnstileOrAds": false
+      },
+      "optimizedFeatures": [
+        "Clean editorial service cards and structured media imagery replacing legacy &nbsp;-spaced wall of text",
+        "Zero Turnstile or ad blockers"
+      ]
+    },
+    {
+      "comparisonKey": "business-development",
+      "route": "/business-development",
+      "screenshot": "business-development.png",
+      "viewport": "1440x900",
+      "httpStatus": 200,
+      "screenshotBytes": 315777,
+      "title": "Business Development | DoingBusiness.ro",
+      "h1": "Business development",
+      "domMetrics": {
+        "bodyTextLength": 5770,
+        "scrollHeight": 4768,
+        "horizontalOverflowPx": 0,
+        "totalImages": 6,
+        "brokenImages": [],
+        "hasTurnstileOrAds": false
+      },
+      "optimizedFeatures": [
+        "Structured B2B solution portfolio layout with dedicated /dezvoltarea-afacerii alias support (both 200 OK)",
+        "Readable measure, visual cards, and clean CTA architecture replacing 7,728px unsegmented legacy scroll"
+      ]
+    },
+    {
+      "comparisonKey": "contact",
+      "route": "/contact",
+      "screenshot": "contact.png",
+      "viewport": "1440x900",
+      "httpStatus": 200,
+      "screenshotBytes": 85577,
+      "title": "Contact | DoingBusiness.ro",
+      "h1": "Informatii contact",
+      "domMetrics": {
+        "bodyTextLength": 1558,
+        "scrollHeight": 1826,
+        "horizontalOverflowPx": 0,
+        "totalImages": 1,
+        "brokenImages": [],
+        "hasTurnstileOrAds": false,
+        "contactFormActive": true
+      },
+      "optimizedFeatures": [
+        "Restores full interactive Zod-validated ContactForm (Prenume, Nume, Email, Telefon, Companie, Pozitie, Mesaj) backed by POST /api/contact (400 invalid / 202 accepted)",
+        "Removes broken off-origin Google Maps iframe error, Turnstile widget, and Revive ad banners"
+      ]
+    }
+  ]
+}
